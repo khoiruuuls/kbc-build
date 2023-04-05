@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+:root {
+    --primary-color-5: #704c1c;
+    --primary-color-9: #351805;
+    --secondary-color: #be8511;
+    --gray-color-8: #f3f1e9;
+    --white-color: #fff;
+    --black-color: #18191a;
+    --red-color: #e74c3c;
+    --banner: #D4B374;
+    --background-banner2: #C79B46;
+    --background-banner3: #A9844A;
+    --blog-p: #502E0E;
+    --blog-link: #A77238;
+}
+
+h1 {
+    font-size: 50px;
+    color: var(--primary-color-5);
+    font-weight: 600;
+    line-height: 64px;
+}
+
+h2 {
+    font-size: 46px;
+    color: var(--primary-color-5);
+    font-weight: 600;
+    line-height: 54px;
+}
+
+h4 {
+    font-size: 20px;
+    color: var(--black-color);
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: var(--black-color);
+    margin: 15px 0 20px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px;
+}
+
+body {
+    width: 100%;
+}
+
+/* ----------- HERO SECTION ----------- */
+
+.hero-detail img {
+    width: 100%;
+    padding-top: 65px;
+    height: 350px;
+}
+
+/* ----------- HEADLINE SECTION ----------- */
+
+#headline-detail h3,
+#headline-detail p {
+    margin-left: 200px;
+    text-align: center;
+}
+
+#headline-detail h3 {
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #302311;
+}
+
+#headline-detail p {
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #483F2D;
+}
+
+/* ----------- DAFTAR SECTION ----------- */
+
+#detail-daftar .col p {
+    text-align: center;
+}
+
+#detail-daftar .title-text {
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 5px;
+    color: #483F2D;
+}
+
+#detail-daftar .body-text {
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 5px;
+    color: #483F2D;
+}
+
+/* ----------- TENTANG SEMINAR SECTION ----------- */
+
+#tentang-seminar .title-text {
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: -20px;
+    line-height: 60px;
+    color: #483F2D;
+}
+
+.isi-konten p {
+    font-size: 14px;
+    text-align: justify;
+    color: #483F2D;
+}
+
+/* ----------- BENEFIT SEMINAR SECTION ----------- */
+
+#benefit-seminar .title-text {
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 20px;
+    color: #483F2D;
+    margin-top: -20px;
+}
+
+#benefit-seminar .body-text {
+    margin-top: -10px;
+}
+
+.body-text i {
+    font-size: 25px;
+    width: 30px;
+    color: #402108;
+}
+
+/* ----------- REGISTER SECTION ----------- */
+
+#register .title-text {
+    margin-bottom: -1px;
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 20px;
+    color: #483F2D;
+}
+
+#register a {
+    font-family: "Manrope";
+    font-weight: 500;
+    font-size: 14px;
+    color: #483F2D;
+}
+
+/* ----------- REGISTER SECTION ----------- */
+
+#kontak .title-text {
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 20px;
+    color: #483F2D;
+}
+
+#kontak .body-text {
+    margin-top: -20px;
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 14px;
+    color: #483F2D;
+}
+
+/* ----------- FOOTER SECTION ----------- */
+
+#footer {
+    padding-top: 50px;
+    background-color: var(--primary-color-9);
+}
+
+#footer img {
+    width: 90px;
+}
+
+.social-media i {
+    color: #ffffff;
+}
+
+#footer span,
+#footer h5 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#footer p {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+#footer .pt-5 h5 {
+    display: flex;
+    align-items: center;
+}
+
+#footer .pt-5 i {
+    margin-right: 20px;
+    color: #ebb02d;
+}
+
+#footer .pt-5 p {
+    margin: 0;
+}
+
+#footer .social-media {
+    display: flex;
+}
+
+#footer .social-media button {
+    margin-top: 40px;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    text-decoration: none;
+    border: 1px solid #ebb02d;
+    border-radius: 90px;
+    color: rgb(40, 144, 241);
+    transition: color 0.3s 0.1s ease-out;
+}
