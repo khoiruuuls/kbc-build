@@ -1,0 +1,187 @@
+/* --------------- CONSULTATION SECTION --------------- */
+
+#consultation {
+	background-image: url("/img/consultation.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+#consultation .consultation-wrap {
+	background: linear-gradient(
+		90deg,
+		rgba(64, 33, 8, 0.96) 40%,
+		rgba(64, 33, 8, 0.8) 68%,
+		rgba(64, 33, 8, 0.6) 82%,
+		rgba(64, 33, 8, 0.4) 90%,
+		rgba(64, 33, 8, 0.2) 100%
+	);
+}
+
+#consultation .consultation-box {
+	padding: 50px 0;
+}
+
+#consultation .route {
+	display: flex;
+	align-items: center;
+	color: var(--white-color);
+}
+
+#consultation .route p {
+	margin-bottom: 20px;
+}
+
+#consultation .route i:before {
+	vertical-align: -0.05rem;
+	padding: 0 10px;
+	-webkit-text-stroke: 1px;
+}
+
+#consultation h1,
+#consultation p {
+	color: var(--white-color);
+}
+
+#consultation .input {
+	width: 100%;
+	max-width: 425px;
+	height: 45px;
+	padding: 20px;
+	border-radius: 12px;
+	border: 1.5px solid lightgrey;
+	outline: none;
+	box-shadow: 0px 0px 20px -18px;
+}
+
+#consultation button {
+	padding: 11px 25px;
+	border: none;
+	color: var(--white-color);
+	border-radius: 12px;
+	font-weight: 600;
+	margin-left: 5px;
+	background-color: var(--primary-color-5);
+}
+
+#category {
+	padding: 20px;
+	background: var(--white-color);
+}
+
+#category .sub-category {
+	padding-top: 20px;
+}
+
+#category .sub-category ul {
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+#category .sub-category li {
+	padding: 8px 20px;
+	margin-right: 20px;
+	border-radius: 12px;
+}
+
+#category .sub-category li:hover {
+	background-color: var(--gray-color-8);
+	cursor: pointer;
+}
+
+#category .sub-category .active {
+	background-color: var(--gray-color-8);
+	border: none;
+}
+
+#category .mentor-card {
+	display: flex;
+	padding: 0 20px 0 0;
+	flex-direction: row;
+	margin-top: 20px;
+	border: 1px solid var(--gray-color-4);
+	border-radius: 8px;
+}
+
+#category img {
+	width: 42%;
+}
+
+#category .mentor {
+	width: 100%;
+	padding: 20px 0;
+}
+
+#category .mentor h4 {
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--black-color);
+}
+
+#category .mentor h6 {
+	font-size: 16px;
+	padding-bottom: 15px;
+	margin: 0;
+}
+
+.mentor p {
+	font-size: 14px;
+	padding: 8px;
+	margin: 0;
+}
+
+#category .mentor .identity {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#category .box-icon {
+	width: 45px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 9px;
+	border-radius: 8px;
+	border: 1px solid var(--gray-color-4);
+}
+
+#category .box-icon {
+	color: var(--gray-color-4);
+}
+
+.mentor-btn button {
+	background-color: var(--primary-color-5);
+	margin-top: 10px;
+	padding: 11px 25px;
+	border: none;
+	border-radius: 12px;
+	font-size: 12px;
+	font-weight: 600;
+	margin-left: 5px;
+	color: var(--white-color);
+}
+
+.mentor-btn i {
+	margin-right: 10px;
+}
+
+.detail-btn {
+	text-decoration: none;
+	width: 100%;
+	padding: 11px 20px;
+	border: 1px solid;
+	color: var(--black-color);
+	border-radius: 12px;
+	font-size: 12px;
+	font-weight: 600;
+	margin-left: 5px;
+	background-color: var(--white-color);
+}
+
+.detail-btn:hover {
+	color: var(--white-color);
+	background-color: var(--primary-color-5);
+	border: none;
+}

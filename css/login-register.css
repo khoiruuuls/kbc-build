@@ -1,0 +1,104 @@
+/* ----------- LOGIN REGISTER SECTION ----------- */
+
+#login-register .logo {
+	padding: 36px 48px;
+}
+
+#login-register .logo img {
+	width: 96px;
+	height: 88px;
+}
+
+#login-register .login-register img {
+	object-fit: cover;
+	width: 100%;
+	height: 1172px;
+}
+
+#login-register .hello {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#login-register .form {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	width: 450px;
+	border-radius: 0.5rem;
+}
+
+#login-register .form-title {
+	font-size: 2rem;
+	line-height: 1.75rem;
+	font-weight: 600;
+	color: #000;
+}
+
+#login-register .input-container {
+	position: relative;
+}
+
+#login-register .input-container p {
+	margin: 10px 0 0;
+}
+
+#login-register .input-container input,
+#login-register .form button {
+	outline: none;
+	border: 1px solid #e5e7eb;
+	margin: 8px 0;
+}
+
+#login-register .input-container input {
+	width: 100%;
+	background-color: #fff;
+	padding: 1rem;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+#login-register .input-container span {
+	display: grid;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	place-content: center;
+}
+
+#login-register .submit {
+	display: block;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	background-color: var(--primary-color-5);
+	color: #ffffff;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	font-weight: 500;
+	width: 100%;
+	border-radius: 0.5rem;
+	text-transform: capitalize;
+}
+
+#login-register .link {
+	padding-top: 20px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	color: #6b7280;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	text-align: center;
+}
+
+#login-register .link a {
+	text-decoration: none;
+}
