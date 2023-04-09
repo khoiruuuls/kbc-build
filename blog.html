@@ -6,7 +6,7 @@
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1.0" />
-		<title>KBC Build</title>
+		<title>KBC Build - Blog</title>
 
 		<!-- favicon -->
 		<link
@@ -23,6 +23,7 @@
 			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
 			rel="stylesheet" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/blog.css" />
 	</head>
 	<body>
 		<!-- bagian navbar -->
@@ -37,11 +38,11 @@
 			<ul id="navbar">
 				<a href="index.html">
 					<li>
-						<a href="index.html" class="active">Beranda</a>
+						<a href="index.html">Beranda</a>
 					</li>
 
 					<li><a href="">Program</a></li>
-					<li><a href="blog.html">Blog</a></li>
+					<li><a href="blog.html" class="active">Blog</a></li>
 					<li><a href="faq.html">FAQ</a></li>
 				</a>
 			</ul>
@@ -61,47 +62,95 @@
 			</ul>
 		</section>
 
-		<section id="user-profile" class="section-m1">
-			<h1>Profile</h1>
-			<img src="img/svg/person-circle.svg" alt="" />
-			<button>Pilih Gambar</button>
-			<div class="row">
-				<div class="input-container">
-					<p>Full name</p>
-					<input
-						placeholder="Enter your full name"
-						type="name" />
-				</div>
-				<div class="input-container">
-					<p>Email</p>
-					<input placeholder="Enter your email" type="email" />
-				</div>
-				<div class="input-container col-6">
-					<p>Date birth</p>
-					<input
-						placeholder="Enter your date birth"
-						type="date" />
-				</div>
-				<div class="input-container col-6">
-					<p>Gender</p>
-					<input placeholder="Enter your gender" type="gender" />
-				</div>
-				<div class="input-container">
-					<p>Address</p>
-					<input
-						placeholder="Enter your address"
-						type="address" />
-				</div>
-				<div class="input-container">
-					<p>Select your class</p>
-					<input
-						placeholder="Enter your select your class"
-						type="name" />
+		<section id="header-blog">
+			<div class="header-blog-wrap">
+				<div class="container">
+					<div class="header-blog-box col-6">
+						<div class="route">
+							<p><strong>Beranda</strong></p>
+							<i class="bi bi-chevron-right"></i>
+							<p>Blog</p>
+						</div>
+						<h1>Blog</h1>
+						<p class="body-text">
+							Lorem ipsum dolor sit amet, consectetur
+							adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliqua.
+							Ut enim ad
+						</p>
+						<div class="search-bar">
+							<input
+								placeholder="Kata kunci, kategori, nama konsultan dsb ..."
+								type="text"
+								name="text"
+								class="input" />
+							<button class="primary-button">Cari</button>
+						</div>
+					</div>
 				</div>
 			</div>
-			<a href="index.html" class="submit">
-				<button type="submit">Edit Profile</button>
-			</a>
+		</section>
+
+		<section id="headline-blog">
+			<div class="container">
+				<div class="headline-blog-wrap">
+					<img src="img/blog-headline.jpg" alt="" />
+					<div class="blog-text">
+						<h1>Strategi Bisnis</h1>
+						<p class="body-text">
+							Lorem ipsum dolor sit amet, consectetur
+							adipisicing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliqua.
+							Ut enim ad minim veniam, quis nostrud
+							exercitation ullamco laboris nisi ut aliquip
+							ex ea commodo consequat. Duis aute irure
+							dolor in reprehenderit in voluptate velit
+							esse cillum dolore eu fugiat nulla pariatur.
+							Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt
+							mollit anim id est laborum
+						</p>
+						<a href="blog-content.html">
+							<button class="primary-button">
+								Baca Selengkapnya
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="blog">
+			<div class="container">
+				<h1 class="text-center">Recent Post</h1>
+				<div class="row">
+					<div class="col-4">
+						<div class="card">
+							<img src="img/blog.jpg" alt="" />
+							<div class="card-text">
+								<p>
+									2 days ago by
+									<span>Khoirul Fahmi</span>
+								</p>
+								<h3>Strategi Bisnis</h3>
+								<p class="body-text">
+									Lorem ipsum dolor sit amet,
+									consectetur adipisicing elit, sed
+									do eiusmod tempor incididunt ut
+									labore et dolore magna aliqua. Ut
+									enim ad minim veniam, quis nostrud
+									exercitation ullamco laboris nisi
+									ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in
+									reprehenderit in voluptate velit
+									esse cillum dolore eu fugiat nulla
+									pariatur.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section id="footer">

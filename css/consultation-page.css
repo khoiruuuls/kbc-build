@@ -28,7 +28,7 @@
 }
 
 #consultation .route p {
-	margin-bottom: 20px;
+	margin: 0;
 }
 
 #consultation .route i:before {
@@ -80,17 +80,18 @@
 
 #category .sub-category li {
 	padding: 8px 20px;
+	font-weight: 600;
 	margin-right: 20px;
 	border-radius: 12px;
 }
 
 #category .sub-category li:hover {
-	background-color: var(--gray-color-8);
+	background-color: var(--gray-color-2);
 	cursor: pointer;
 }
 
 #category .sub-category .active {
-	background-color: var(--gray-color-8);
+	background-color: var(--gray-color-2);
 	border: none;
 }
 
@@ -124,7 +125,7 @@
 	margin: 0;
 }
 
-.mentor p {
+#category .mentor p {
 	font-size: 14px;
 	padding: 8px;
 	margin: 0;
@@ -136,31 +137,12 @@
 	justify-content: space-between;
 }
 
-#category .box-icon {
-	width: 45px;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 9px;
-	border-radius: 8px;
-	border: 1px solid var(--gray-color-4);
-}
-
-#category .box-icon {
-	color: var(--gray-color-4);
-}
-
-.mentor-btn button {
-	background-color: var(--primary-color-5);
+#category .consultation-button {
 	margin-top: 10px;
-	padding: 11px 25px;
-	border: none;
-	border-radius: 12px;
-	font-size: 12px;
-	font-weight: 600;
-	margin-left: 5px;
-	color: var(--white-color);
+}
+
+#category .consultation-button i {
+	margin-right: 10px;
 }
 
 .mentor-btn i {

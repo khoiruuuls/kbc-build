@@ -6,7 +6,7 @@
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1.0" />
-		<title>KBC Build</title>
+		<title>KBC Build - Consultation Detail</title>
 
 		<!-- favicon -->
 		<link
@@ -38,23 +38,21 @@
 			<ul id="navbar">
 				<a href="index.html">
 					<li>
-						<a href="beranda.html" class="active">Beranda</a>
+						<a href="index.html" class="active">Beranda</a>
 					</li>
 
 					<li><a href="">Program</a></li>
-					<li><a href="komunitas.html">Blog</a></li>
-					<li><a href="bootcamp.html">FAQ</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="faq.html">FAQ</a></li>
 				</a>
 			</ul>
 			<ul id="user">
-				<li>
-					<button>
-						<a href="login.html">
-							<i class="bi bi-person-fill"></i>
-						</a>
-					</button>
-				</li>
-				<p>Khoirul Fahmi</p>
+				<a href="user-profile.html" class="user-login">
+					<img
+						src="https://indownloader.app/file?id=aHR0cHM6Ly9zY29udGVudC1hdGwzLTEuY2RuaW5zdGFncmFtLmNvbS92L3Q1MS4yODg1LTE5LzI4NjkxNDMwMV83NzMzOTQwNjA3MzkyNDVfMTE4ODc4MTc1MDU5MTU0ODQzMV9uLmpwZz9zdHA9ZHN0LWpwZ19zMzIweDMyMCZfbmNfaHQ9c2NvbnRlbnQtYXRsMy0xLmNkbmluc3RhZ3JhbS5jb20mX25jX2NhdD0xJl9uY19vaGM9SVZPS0tSSm1ycmNBWDhxZzE0UiZlZG09QUtFUUZla0JBQUFBJmNjYj03LTUmb2g9MDBfQWZBZkRhd0NjSXp6WVQ1MHVHYUdwcEFkREtoelFWYkQ0REpmaFF6bXcwNjhvdyZvZT02NDM2RkY4MSZfbmNfc2lkPTAzNWIzYQ=="
+						alt="" />
+					<p>Khoirul Fahmi</p>
+				</a>
 				<!-- <a href="login.html" class="sign-in">
 					<button>Masuk</button>
 				</a>
@@ -64,10 +62,10 @@
 			</ul>
 		</section>
 
-		<section id="detail-consultant">
-			<div class="detail-consultant-wrap">
+		<section id="header-detail">
+			<div class="header-detail-wrap">
 				<div class="container">
-					<div class="detail-consultant-box col-12">
+					<div class="header-detail-box col-12">
 						<div class="route">
 							<p><strong>Beranda</strong></p>
 							<i class="bi bi-chevron-right"></i>
@@ -80,10 +78,10 @@
 						<div class="consultant-box">
 							<img src="img/khoirul.png" alt="" />
 							<div class="consultant-wrap">
-								<h1>Khoirul Fahmi</h1>
+								<h3>Khoirul Fahmi</h3>
 								<p>Market Intelligence</p>
 								<div class="consultant-bar">
-									<button>
+									<button class="primary-button">
 										<i
 											class="bi bi-chat-left-dots"></i>
 										Mulai Konsultasi
@@ -172,8 +170,8 @@
 				<div class="row">
 					<div class="col-6">
 						<div class="profile-consultant-card">
-							<h3>Profile Konsultan</h3>
-							<p>
+							<h6>Profile Konsultan</h6>
+							<p class="body-text">
 								Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit, sed do eiusmod tempor
 								incididunt ut labore et dolore magna
@@ -184,7 +182,7 @@
 					</div>
 					<div class="col-6">
 						<div class="profile-consultant-card">
-							<h3>Konsultasi</h3>
+							<h6>Konsultasi</h6>
 							<div class="consultant-info">
 								<div class="consultant-icon">
 									<i class="bi bi-clock"></i>
@@ -224,7 +222,7 @@
 
 		<section id="review">
 			<div class="container">
-				<h3>Ulasan</h3>
+				<h5>Ulasan</h5>
 				<div class="review-header">
 					<p>Menampilkan 15 dari 210</p>
 					<a href="">Menampikan semua ulasan</a>
@@ -233,7 +231,7 @@
 					<div class="col-4">
 						<div class="review-card">
 							<h1>"</h1>
-							<p>
+							<p class="body-text">
 								Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit, sed do eiusmod tempor
 								incididunt ut labore et dolore magna
@@ -242,7 +240,36 @@
 							<div class="user">
 								<img src="img/khoirul.png" alt="" />
 								<div class="username">
-									<h5>Aliyyu Gani</h5>
+									<h6>Aliyyu Gani</h6>
+									<div class="star">
+										<i
+											class="bi bi-star-fill"></i>
+										<i
+											class="bi bi-star-fill"></i>
+										<i
+											class="bi bi-star-fill"></i>
+										<i
+											class="bi bi-star-fill"></i>
+										<i
+											class="bi bi-star-fill"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="review-card">
+							<h1>"</h1>
+							<p class="body-text">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna
+								aliqua.
+							</p>
+							<div class="user">
+								<img src="img/khoirul.png" alt="" />
+								<div class="username">
+									<h6>Aliyyu Gani</h6>
 									<div class="star">
 										<i
 											class="bi bi-star-fill"></i>
@@ -271,36 +298,7 @@
 							<div class="user">
 								<img src="img/khoirul.png" alt="" />
 								<div class="username">
-									<h5>Aliyyu Gani</h5>
-									<div class="star">
-										<i
-											class="bi bi-star-fill"></i>
-										<i
-											class="bi bi-star-fill"></i>
-										<i
-											class="bi bi-star-fill"></i>
-										<i
-											class="bi bi-star-fill"></i>
-										<i
-											class="bi bi-star-fill"></i>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="review-card">
-							<h1>"</h1>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur
-								adipisicing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna
-								aliqua.
-							</p>
-							<div class="user">
-								<img src="img/khoirul.png" alt="" />
-								<div class="username">
-									<h5>Aliyyu Gani</h5>
+									<h6>Aliyyu Gani</h6>
 									<div class="star">
 										<i
 											class="bi bi-star-fill"></i>

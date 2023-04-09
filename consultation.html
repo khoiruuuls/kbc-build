@@ -38,23 +38,21 @@
 			<ul id="navbar">
 				<a href="index.html">
 					<li>
-						<a href="beranda.html" class="active">Beranda</a>
+						<a href="index.html" class="active">Beranda</a>
 					</li>
 
 					<li><a href="">Program</a></li>
-					<li><a href="komunitas.html">Blog</a></li>
-					<li><a href="bootcamp.html">FAQ</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="faq.html">FAQ</a></li>
 				</a>
 			</ul>
 			<ul id="user">
-				<li>
-					<button>
-						<a href="login.html">
-							<i class="bi bi-person-fill"></i>
-						</a>
-					</button>
-				</li>
-				<p>Khoirul Fahmi</p>
+				<a href="user-profile.html" class="user-login">
+					<img
+						src="https://indownloader.app/file?id=aHR0cHM6Ly9zY29udGVudC1hdGwzLTEuY2RuaW5zdGFncmFtLmNvbS92L3Q1MS4yODg1LTE5LzI4NjkxNDMwMV83NzMzOTQwNjA3MzkyNDVfMTE4ODc4MTc1MDU5MTU0ODQzMV9uLmpwZz9zdHA9ZHN0LWpwZ19zMzIweDMyMCZfbmNfaHQ9c2NvbnRlbnQtYXRsMy0xLmNkbmluc3RhZ3JhbS5jb20mX25jX2NhdD0xJl9uY19vaGM9SVZPS0tSSm1ycmNBWDhxZzE0UiZlZG09QUtFUUZla0JBQUFBJmNjYj03LTUmb2g9MDBfQWZBZkRhd0NjSXp6WVQ1MHVHYUdwcEFkREtoelFWYkQ0REpmaFF6bXcwNjhvdyZvZT02NDM2RkY4MSZfbmNfc2lkPTAzNWIzYQ=="
+						alt="" />
+					<p>Khoirul Fahmi</p>
+				</a>
 				<!-- <a href="login.html" class="sign-in">
 					<button>Masuk</button>
 				</a>
@@ -76,7 +74,7 @@
 							<p>Konsultasi</p>
 						</div>
 						<h1>Konsultasi</h1>
-						<p>
+						<p class="body-text">
 							Lorem ipsum dolor sit amet, consectetur
 							adipiscing elit, sed do eiusmod tempor
 							incididunt ut labore et dolore magna aliqua.
@@ -109,7 +107,7 @@
 					</ul>
 				</div>
 				<div class="row">
-					<div class="col-6">
+					<div class="col-sm-6">
 						<div class="mentor-card">
 							<img src="img/khoirul.png" alt="" />
 							<div class="mentor">
@@ -133,56 +131,19 @@
 									</i>
 									<strong> 4,9 | 235</strong> Klien
 								</p>
-								<div class="mentor-btn">
-									<button>
+								<div class="consultation-button">
+									<button class="sm-primary-button">
 										<i
 											class="bi bi-chat-left-dots">
 										</i>
 										Mulai Konsultasi
 									</button>
-									<a
-										href="detail-consultant.html"
-										class="detail-btn">
-										Lihat Detail</a
-									>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-6">
-						<div class="mentor-card">
-							<img src="img/khoirul.png" alt="" />
-							<div class="mentor">
-								<div class="identity">
-									<div class="name">
-										<h4>Khoirul Fahmi</h4>
-										<h6>Market Intelligence</h6>
-									</div>
-									<div class="box-icon">
-										<i
-											class="bi bi-heart-fill"></i>
-									</div>
-								</div>
-								<p class="border-top">
-									Setiap Hari | Tatap Muka & Online
-								</p>
-								<p>
-									<i
-										class="bi bi-star-fill"
-										style="color: #facc15">
-									</i>
-									<strong> 4,9 | 235</strong> Klien
-								</p>
-								<div class="mentor-btn">
-									<button>
-										<i
-											class="bi bi-chat-left-dots">
-										</i>
-										Mulai Konsultasi
-									</button>
-									<a href="" class="detail-btn">
-										Lihat Detail</a
-									>
+									<a href="detail-consultant.html">
+										<button
+											class="sm-secondary-button">
+											Lihat Detail
+										</button>
+									</a>
 								</div>
 							</div>
 						</div>

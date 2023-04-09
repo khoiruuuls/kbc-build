@@ -31,13 +31,6 @@
 	border-radius: 0.5rem;
 }
 
-#login-register .form-title {
-	font-size: 2rem;
-	line-height: 1.75rem;
-	font-weight: 600;
-	color: #000;
-}
-
 #login-register .input-container {
 	position: relative;
 }
@@ -57,7 +50,7 @@
 	width: 100%;
 	background-color: #fff;
 	padding: 1rem;
-	font-size: 0.875rem;
+	font-size: 1rem;
 	line-height: 1.25rem;
 	border-radius: 0.5rem;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -74,31 +67,19 @@
 	place-content: center;
 }
 
-#login-register .submit {
-	display: block;
-	padding-top: 0.75rem;
-	padding-bottom: 0.75rem;
-	padding-left: 1.25rem;
-	padding-right: 1.25rem;
-	background-color: var(--primary-color-5);
-	color: #ffffff;
-	font-size: 0.875rem;
-	line-height: 1.25rem;
-	font-weight: 500;
+#login-register .primary-button {
 	width: 100%;
-	border-radius: 0.5rem;
-	text-transform: capitalize;
 }
 
 #login-register .link {
 	padding-top: 20px;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-top: 1px solid var(--gray-color-4);
 	color: #6b7280;
-	font-size: 0.875rem;
+	font-size: 1rem;
 	line-height: 1.25rem;
 	text-align: center;
 }
 
 #login-register .link a {
-	text-decoration: none;
+	font-size: 1rem;
 }
