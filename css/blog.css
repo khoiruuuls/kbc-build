@@ -15,26 +15,12 @@
 		rgba(64, 33, 8, 0.4) 90%,
 		rgba(64, 33, 8, 0.2) 100%
 	);
+	height: 314px;
 }
 
 #header-blog .header-blog-box {
 	padding: 50px 0;
-}
-
-#header-blog .route {
-	display: flex;
-	align-items: center;
-	color: var(--white-color);
-}
-
-#header-blog .route p {
-	margin: 0;
-}
-
-#header-blog .route i:before {
-	vertical-align: -0.05rem;
-	padding: 0 10px;
-	-webkit-text-stroke: 1px;
+	height: inherit;
 }
 
 #header-blog h1,

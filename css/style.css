@@ -89,6 +89,9 @@
 	--normal-color-7: #2563eb;
 	--normal-color-8: #1d4ed8;
 	--normal-color-9: #1e40af;
+
+	/* Border Color */
+	--border-color: #15008b;
 }
 
 body {
@@ -387,6 +390,37 @@ a:hover {
 	border-radius: 10px;
 	background-color: var(--white-color);
 	color: var(--primary-color-9);
+}
+
+/* Route Class */
+
+.route {
+	column-gap: 10px;
+	display: inline-flex;
+	color: var(--white-color);
+}
+
+.route i:before {
+	vertical-align: -0.1rem;
+	-webkit-text-stroke: 1px;
+}
+
+/* Input and Textarea Style */
+
+input,
+textarea {
+	width: 450px;
+	padding: 12px 20px;
+	font-weight: 600;
+	border-radius: 10px;
+	border: 1px solid var(--gray-color-3);
+	box-shadow: 0px 0px 20px -18px;
+}
+
+input:focus,
+textarea:focus {
+	outline: none !important;
+	border: 2px solid var(--border-color);
 }
 
 /* ----------- HEADER SECTION ----------- */
