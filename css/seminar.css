@@ -1,0 +1,41 @@
+.img-seminar {
+	background-image: url("/img/seminar.jpg");
+}
+
+#headline-seminar {
+	margin-block: 30px;
+}
+
+#headline-seminar .headline-seminar-wrap {
+	display: flex;
+	padding: 15px 20px;
+}
+
+#headline-seminar .headline-seminar-wrap img {
+	width: 450px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 12px;
+}
+
+#headline-seminar .seminar-text {
+	margin-inline-start: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#headline-seminar .seminar-text h2 {
+	color: var(--primary-color-6);
+}
+
+#headline-seminar a {
+	margin-block-end: 20px;
+	font-size: 16px;
+}
+
+.sub-text span {
+	text-decoration: line-through;
+	font-weight: 800;
+	color: var(--primary-color-6);
+}
