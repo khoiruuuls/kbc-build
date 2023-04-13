@@ -36,75 +36,69 @@
 	border: none;
 }
 
-#category .mentor-card {
-	display: flex;
-	padding: 0 20px 0 0;
-	flex-direction: row;
-	margin-top: 20px;
-	border: 1px solid var(--gray-color-4);
-	border-radius: 8px;
-}
-
 #category img {
-	width: 42%;
-}
-
-#category .mentor {
 	width: 100%;
-	padding: 20px 0;
+	height: 100%;
+	border-radius: 8px 0 0 8px;
+	object-fit: cover;
 }
 
-#category .mentor h4 {
-	font-size: 20px;
-	font-weight: 700;
-	color: var(--black-color);
+#category .text-card {
+	width: 70%;
+	padding: 20px;
+	position: absolute;
+	right: 0;
 }
 
-#category .mentor h6 {
-	font-size: 16px;
-	padding-bottom: 15px;
-	margin: 0;
+#category .card-consultation {
+	display: flex;
+	align-items: center;
+	border: 1px solid var(--gray-color-4);
+	border-radius: 12px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 250px;
+	margin-block: 20px;
 }
 
-#category .mentor p {
-	font-size: 14px;
-	padding: 8px;
-	margin: 0;
+#category .img {
+	height: 100%;
+	width: 30%;
 }
 
-#category .mentor .identity {
+#category .mentor-detail {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-}
-
-#category .consultation-button {
-	margin-top: 10px;
-}
-
-#category .consultation-button i {
-	margin-right: 10px;
-}
-
-.mentor-btn i {
-	margin-right: 10px;
-}
-
-.detail-btn {
-	text-decoration: none;
 	width: 100%;
-	padding: 11px 20px;
-	border: 1px solid;
-	color: var(--black-color);
-	border-radius: 12px;
-	font-size: 12px;
-	font-weight: 600;
-	margin-left: 5px;
-	background-color: var(--white-color);
+	border-bottom: 1px solid var(--gray-color-4);
 }
 
-.detail-btn:hover {
-	color: var(--white-color);
-	background-color: var(--primary-color-5);
-	border: none;
+#category .mentor-detail h6 {
+	font-size: 1.25rem;
+}
+
+#category .mentor-detail p {
+	font-size: 1rem;
+}
+
+#category .mentor-name {
+	margin: 10px;
+}
+
+#category .mentor-name p {
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+#category .mentor-button {
+	display: flex;
+	justify-content: flex-end;
+	column-gap: 10px;
+}
+
+#category .mentor-button button {
+	font-size: 14px;
+	font-weight: 600;
 }
