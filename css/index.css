@@ -345,7 +345,6 @@
 /* ----------- ULASAN SECTION ----------- */
 
 #ulasan {
-	background-image: url("/img/bg_ulasan.png");
 	background-size: cover;
 	height: 650px;
 }
@@ -395,7 +394,7 @@
 	margin-left: 40px;
 }
 
-/* ----------- FOOTER SECTION ----------- */
+/* ----------- BLOG SECTION ----------- */
 
 #blog .blog-text {
 	text-align: center;
