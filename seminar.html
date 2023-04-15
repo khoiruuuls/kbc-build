@@ -29,38 +29,94 @@
 	<body>
 		<!-- bagian navbar -->
 		<section id="header">
-			<div id="nav">
-				<img
-					id="logo"
-					src="https://kbc.or.id/img/general/KBC-Logo_1594107681.png"
-					class="logo"
-					alt="" />
-			</div>
-			<ul id="navbar">
-				<a href="index.html">
-					<li>
-						<a href="index.html">Beranda</a>
-					</li>
+			<div class="nav container__navbar">
+				<div class="nav__data">
+					<a href="" class="nav__logo">
+						<img
+							id="logo"
+							src="https://kbc.or.id/img/general/KBC-Logo_1594107681.png"
+							class="logo"
+							alt="" />
+					</a>
 
-					<li><a href="">Program</a></li>
-					<li><a href="blog.html" class="active">Blog</a></li>
-					<li><a href="faq.html">FAQ</a></li>
-				</a>
-			</ul>
-			<ul id="user">
-				<!-- <a href="user-profile.html" class="user-login">
-					<img src="img/user-profile.jpg" alt="" />
-					<p>Khoirul Fahmi</p>
-				</a> -->
-				<a href="login.html">
-					<button class="log-primary-button">Masuk</button>
-				</a>
-				<a href="sign-up.html">
-					<button class="log-secondary-button">
-						Registrasi
-					</button>
-				</a>
-			</ul>
+					<div class="nav__toggle" id="nav-toggle">
+						<i class="ri-menu-line nav__toggle-menu"></i>
+						<i class="ri-close-line nav__toggle-close"></i>
+					</div>
+				</div>
+
+				<!--=============== NAV MENU ===============-->
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li>
+							<a href="index.html" class="nav__link"
+								>Beranda</a
+							>
+						</li>
+
+						<!--=============== DROPDOWN ===============-->
+						<li class="dropdown__item">
+							<div class="nav__link dropdown__button">
+								Layanan
+								<i
+									class="ri-arrow-down-s-line dropdown__arrow"></i>
+							</div>
+							<div class="dropdown__container">
+								<div class="dropdown__content">
+									<div class="dropdown__group">
+										<i class="ri-group-line"></i>
+										<a href="consultation.html"
+											><span
+												class="dropdown__title">
+												Konsultasi</span
+											></a
+										>
+									</div>
+									<div class="dropdown__group">
+										<i
+											class="ri-user-voice-line"></i>
+										<span class="dropdown__title"
+											>Pelatihan</span
+										>
+									</div>
+									<div class="dropdown__group">
+										<i class="ri-team-line"></i>
+										<span class="dropdown__title"
+											>Pelatihan
+											Berkelompok</span
+										>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<a href="blog.html" class="nav__link"
+								>Blog</a
+							>
+						</li>
+						<li>
+							<a href="faq.html" class="nav__link">FAQ</a>
+						</li>
+					</ul>
+				</div>
+				<div class="button__navbar">
+					<!-- <a href="user-profile.html" class="user-login">
+						<img src="img/user-profile.jpg" alt="" />
+						<p>Khoirul Fahmi</p>
+					</a> -->
+					<a href="login.html">
+						<button class="log-secondary-button">
+							Masuk
+						</button>
+					</a>
+					<a href="sign-up.html">
+						<button class="log-primary-button">
+							Registrasi
+						</button>
+					</a>
+				</div>
+			</div>
 		</section>
 
 		<section id="header-post" class="img-seminar">
