@@ -1,698 +1,617 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0" />
-		<title>KBC Build</title>
 
-		<!-- favicon -->
-		<link
-			rel="icon"
-			type="image/x-icon"
-			href="https://kbc.or.id/img/general/KBC-Logo_1594107681.png" />
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>KBC Build</title>
 
-		<!-- boxicons -->
-		<link
-			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-			rel="stylesheet" />
+	<!-- favicon -->
+	<link rel="icon" type="image/x-icon" href="https://kbc.or.id/img/general/KBC-Logo_1594107681.png" />
 
-		<!--=============== REMIXICONS ===============-->
-		<link
-			href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-			rel="stylesheet" />
+	<!-- boxicons -->
+	<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-		<!-- css style -->
+	<!--=============== REMIXICONS ===============-->
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
 
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-			rel="stylesheet" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
-			rel="stylesheet" />
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/index.css" />
-	</head>
-	<body>
-		<!-- bagian navbar -->
-		<section id="header">
-			<div class="nav container__navbar">
-				<div class="nav__data">
-					<a href="" class="nav__logo">
-						<img
-							id="logo"
-							src="https://kbc.or.id/img/general/KBC-Logo_1594107681.png"
-							class="logo"
-							alt="" />
-					</a>
+	<!-- css style -->
 
-					<div class="nav__toggle" id="nav-toggle">
-						<i class="ri-menu-line nav__toggle-menu"></i>
-						<i class="ri-close-line nav__toggle-close"></i>
-					</div>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+	<!-- bagian navbar -->
+	<section id="header">
+		<div class="nav container__navbar">
+			<div class="nav__data">
+				<a href="" class="nav__logo">
+					<img id="logo" src="https://kbc.or.id/img/general/KBC-Logo_1594107681.png" class="logo" alt="" />
+				</a>
+
+				<div class="nav__toggle" id="nav-toggle">
+					<i class="ri-menu-line nav__toggle-menu"></i>
+					<i class="ri-close-line nav__toggle-close"></i>
 				</div>
+			</div>
 
-				<!--=============== NAV MENU ===============-->
-				<div class="nav__menu" id="nav-menu">
-					<ul class="nav__list">
-						<li>
-							<a href="index.html" class="nav__link"
-								>Beranda</a
-							>
-						</li>
+			<!--=============== NAV MENU ===============-->
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li>
+						<a href="index.html" class="nav__link">Beranda</a>
+					</li>
 
-						<!--=============== DROPDOWN ===============-->
-						<li class="dropdown__item">
-							<div class="nav__link dropdown__button">
-								Layanan
-								<i
-									class="ri-arrow-down-s-line dropdown__arrow"></i>
-							</div>
-							<div class="dropdown__container">
-								<div class="dropdown__content">
-									<div class="dropdown__group">
-										<i class="ri-group-line"></i>
-										<a href="consultation.html"
-											><span
-												class="dropdown__title">
-												Konsultasi</span
-											></a
-										>
-									</div>
-									<div class="dropdown__group">
-										<i
-											class="ri-user-voice-line"></i>
-										<span class="dropdown__title"
-											>Pelatihan</span
-										>
-									</div>
-									<div class="dropdown__group">
-										<i class="ri-team-line"></i>
-										<span class="dropdown__title"
-											>Pelatihan
-											Berkelompok</span
-										>
-									</div>
+					<!--=============== DROPDOWN ===============-->
+					<li class="dropdown__item">
+						<div class="nav__link dropdown__button">
+							Layanan
+							<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+						</div>
+						<div class="dropdown__container">
+							<div class="dropdown__content">
+								<div class="dropdown__group">
+									<i class="ri-group-line"></i>
+									<a href="consultation.html"><span class="dropdown__title">
+											Konsultasi</span></a>
+								</div>
+								<div class="dropdown__group">
+									<i class="ri-user-voice-line"></i>
+									<span class="dropdown__title">Pelatihan</span>
+								</div>
+								<div class="dropdown__group">
+									<i class="ri-team-line"></i>
+									<span class="dropdown__title">Pelatihan
+										Berkelompok</span>
 								</div>
 							</div>
-						</li>
+						</div>
+					</li>
 
-						<li>
-							<a href="blog.html" class="nav__link"
-								>Blog</a
-							>
-						</li>
-						<li>
-							<a href="faq.html" class="nav__link">FAQ</a>
-						</li>
-					</ul>
-				</div>
-				<div class="button__navbar">
-					<!-- <a href="user-profile.html" class="user-login">
+					<li>
+						<a href="blog.html" class="nav__link">Blog</a>
+					</li>
+					<li>
+						<a href="faq.html" class="nav__link">FAQ</a>
+					</li>
+				</ul>
+			</div>
+			<div class="button__navbar">
+				<!-- <a href="user-profile.html" class="user-login">
 						<img src="img/user-profile.jpg" alt="" />
 						<p>Khoirul Fahmi</p>
 					</a> -->
-					<a href="login.html">
-						<button class="log-secondary-button">
-							Masuk
-						</button>
-					</a>
-					<a href="sign-up.html">
-						<button class="log-primary-button">
-							Registrasi
-						</button>
-					</a>
+				<a href="login.html">
+					<button class="log-secondary-button">
+						Masuk
+					</button>
+				</a>
+				<a href="sign-up.html">
+					<button class="log-primary-button">
+						Registrasi
+					</button>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="hero">
+		<div class="headline">
+			<h2>Bisnis anda siap</h2>
+			<h1>untuk Shifting Up ?</h1>
+			<div class="text-hero">
+				<img src="img/svg/curve.svg" alt="" />
+				<p class="body-text">
+					Kamu bisa belajar langsung dari para professional
+					di industri teknologi, dan juga banyak aktifitas
+					seru yang bisa kamu ikuti.
+				</p>
+				<button class="primary-button">
+					Lihat selengkapnya
+				</button>
+			</div>
+		</div>
+		<!-- <img src="img/hero.png" alt="" /> -->
+		<img src="img/svg/blob.svg" class="blob-hero" />
+	</section>
+
+	<!-- bagian about -->
+	<section id="about" class="section-m1">
+		<div class="container">
+			<div class="header-about">
+				<div class="text-about">
+					<h1>WHO WE ARE ?</h1>
+				</div>
+				<img src="img/svg/straight-line.svg" class="straight-line" alt="" />
+			</div>
+			<div class="row">
+				<div class="col">
+					<iframe class="frame" width="500" height="315" src="https://www.youtube.com/embed/" frameborder="0"
+						allowfullscreen></iframe>
+				</div>
+				<div class="col">
+					<img src="img/svg/wave-line2.svg" class="wave-line2" alt="" />
+					<p class="body-text">
+						Kingdom Business Community (KBC) adalah
+						sebuah gerakan moral dalam dunia kerja
+						berbentuk yayasan niralaba dengan fokus untuk
+						memiliki ‘transformasi pola pikir’ dalam
+						melakukan Bisnis / Pekerjaan dengan Tujuan
+						yang Mulia (tidak hanya orientasi profit) dan
+						mempraktekkan nilai spritual dalam bekerja.
+					</p>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<section id="hero">
-			<div class="headline">
-				<h2>Bisnis anda siap</h2>
-				<h1>untuk Shifting Up ?</h1>
-				<div class="text-hero">
-					<img src="img/svg/curve.svg" alt="" />
-					<p class="body-text">
-						Kamu bisa belajar langsung dari para professional
-						di industri teknologi, dan juga banyak aktifitas
-						seru yang bisa kamu ikuti.
+	<section id="services" class="section-m1">
+		<div class="container">
+			<div class="header-services">
+				<div class="text-services">
+					<h1>Services</h1>
+					<p>Experience You Can Trust</p>
+				</div>
+				<img src="img/svg/wave-line.svg" class="" alt="" />
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="card">
+						<img src="img/svg/icons/services/1.svg" alt="" />
+						<h6>1:1 Coaching</h6>
+						<p class="body-text">
+							Lorem ipsum dolor sit amet, consectetur
+							adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna
+							aliqua minim veniam.
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card">
+						<img src="img/svg/icons/services/2.svg" alt="" />
+						<h6>Consultation</h6>
+						<p class="body-text">
+							Lorem ipsum dolor sit amet, consectetur
+							adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna
+							aliqua minim veniam.
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card">
+						<img src="img/svg/icons/services/3.svg" alt="" />
+						<h6>Coaching Sessions</h6>
+						<p class="body-text">
+							Lorem ipsum dolor sit amet, consectetur
+							adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna
+							aliqua minim veniam.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="consultant" class="section-p1">
+		<div class="container">
+			<h1>Konsultan Ahli Dalam Bidangnya</h1>
+			<p>
+				Konsultasikan mengenai keluhan Anda pada kami Ahlinya,
+				berdiskusi & sharing menegenai hal yang sebelumnya
+				belum Anda ketahui
+			</p>
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="img/khoirul.png" alt="" />
+						<h5>Khoirul Fahmi</h5>
+						<p>President Director</p>
+						<p>PT Pertamina Indonesia</p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="img/khoirul.png" alt="" />
+						<h5>Khoirul Fahmi</h5>
+						<p>President Director</p>
+						<p>PT Pertamina Indonesia</p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="img/khoirul.png" alt="" />
+						<h5>Khoirul Fahmi</h5>
+						<p>President Director</p>
+						<p>PT Pertamina Indonesia</p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="img/khoirul.png" alt="" />
+						<h5>Khoirul Fahmi</h5>
+						<p>President Director</p>
+						<p>PT Pertamina Indonesia</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="banner" class="section-p1">
+		<div class="row">
+			<div class="col-lg-7">
+				<div class="text">
+					<h1>Ingin menjadi Konsultan ?</h1>
+					<p>
+						Untuk kamu yang ingin menjadi Konsultan, KBC
+						memberikan kesempatan untuk kamu bergabung
+						menjadi konsultan.
 					</p>
-					<button class="primary-button">
-						Lihat selengkapnya
+					<button class="banner-button">
+						<h5>Daftar Konsultan</h5>
 					</button>
 				</div>
 			</div>
-			<!-- <img src="img/hero.png" alt="" /> -->
-			<img src="img/svg/blob.svg" class="blob-hero" />
-		</section>
-
-		<!-- bagian about -->
-		<section id="about" class="section-m1">
-			<div class="container">
-				<div class="header-about">
-					<div class="text-about">
-						<h1>WHO WE ARE ?</h1>
+			<div class="col-lg-5">
+				<div class="card">
+					<div class="content">
+						<div class="description">
+							<img src="img/banner.png" alt="" />
+						</div>
 					</div>
-					<img
-						src="img/svg/straight-line.svg"
-						class="straight-line"
-						alt="" />
 				</div>
-				<div class="row">
-					<div class="col">
-						<iframe
-							class="frame"
-							width="500"
-							height="315"
-							src="https://www.youtube.com/embed/"
-							frameborder="0"
-							allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+
+	<section id="program" class="section-p1">
+		<h1>Our Program</h1>
+		<p>Berbagai macam pilihan program yang cocok untuk kamu</p>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="temporary_text">
+						<img src="img/paper.jpg" alt="" />
 					</div>
-					<div class="col">
-						<img
-							src="img/svg/wave-line2.svg"
-							class="wave-line2"
-							alt="" />
-						<p class="body-text">
-							Kingdom Business Community (KBC) adalah
-							sebuah gerakan moral dalam dunia kerja
-							berbentuk yayasan niralaba dengan fokus untuk
-							memiliki ‘transformasi pola pikir’ dalam
-							melakukan Bisnis / Pekerjaan dengan Tujuan
-							yang Mulia (tidak hanya orientasi profit) dan
-							mempraktekkan nilai spritual dalam bekerja.
+					<div class="card_content">
+						<span class="card_title">Digital Marketing</span>
+						<span class="card_price">Rp. 160.000</span>
+						<p class="card_description body-text">
+							Lorem ipsum dolor, sit amet expedita
+							exercitationem recusandae aut dolor
+							tempora aperiam itaque possimus at,
+							cupiditate earum, quae repudiandae
+							aspernatur? Labore minus soluta
+							consequatur placeat.
 						</p>
 					</div>
 				</div>
 			</div>
-		</section>
-
-		<section id="services" class="section-m1">
-			<div class="container">
-				<div class="header-services">
-					<div class="text-services">
-						<h1>Services</h1>
-						<p>Experience You Can Trust</p>
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="temporary_text">
+						<img src="img/paper.jpg" alt="" />
 					</div>
-					<img src="img/svg/wave-line.svg" class="" alt="" />
+					<div class="card_content">
+						<span class="card_title">Digital Marketing</span>
+						<span class="card_price">Rp. 160.000</span>
+						<p class="card_description body-text">
+							Lorem ipsum dolor, sit amet expedita
+							exercitationem recusandae aut dolor
+							tempora aperiam itaque possimus at,
+							cupiditate earum, quae repudiandae
+							aspernatur? Labore minus soluta
+							consequatur placeat.
+						</p>
+					</div>
 				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="temporary_text">
+						<img src="img/paper.jpg" alt="" />
+					</div>
+					<div class="card_content">
+						<span class="card_title">Digital Marketing</span>
+						<span class="card_price">Rp. 160.000</span>
+						<p class="card_description body-text">
+							Lorem ipsum dolor, sit amet expedita
+							exercitationem recusandae aut dolor
+							tempora aperiam itaque possimus at,
+							cupiditate earum, quae repudiandae
+							aspernatur? Labore minus soluta
+							consequatur placeat.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="card">
-							<img
-								src="img/svg/icons/services/1.svg"
-								alt="" />
-							<h6>1:1 Coaching</h6>
-							<p class="body-text">
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna
-								aliqua minim veniam.
-							</p>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="card">
-							<img
-								src="img/svg/icons/services/2.svg"
-								alt="" />
-							<h6>Consultation</h6>
-							<p class="body-text">
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna
-								aliqua minim veniam.
-							</p>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="card">
-							<img
-								src="img/svg/icons/services/3.svg"
-								alt="" />
-							<h6>Coaching Sessions</h6>
-							<p class="body-text">
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna
-								aliqua minim veniam.
+	<section id="partner" class="section-p1">
+		<h1 class="hiring-partner text-center">Hiring Partner</h1>
+		<div class="row">
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<div class="square-holder">
+					<img alt=""
+						src="https://d1j87w3j7cc3a6.cloudfront.net/newsroom/media/web/image/brandbook-logo-thumbnail-5.jpg" />
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<div class="square-holder">
+					<img alt=""
+						src="https://upload.wikimedia.org/wikipedia/id/thumb/5/55/BNI_logo.svg/1200px-BNI_logo.svg.png" />
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<div class="square-holder">
+					<img alt=""
+						src="https://assets.grab.com/wp-content/uploads/sites/9/2021/04/15154215/Grab_Logo_2021.jpg" />
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<div class="square-holder">
+					<img alt=""
+						src="https://cdn2.tstatic.net/tribunnewswiki/foto/bank/images/Logo-badan-usaha-milik-negara-BUMN.jpg" />
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<div class="square-holder">
+					<img alt=""
+						src="https://images.samsung.com/is/image/samsung/assets/id/about-us/brand/logo/mo/360_197_1.png?$FB_TYPE_B_PNG$" />
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<div class="square-holder">
+					<img alt="" src="https://www.pmits.co.uk/Portals/0/img/opera3_logo.png" />
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<div class="square-holder">
+					<img alt=""
+						src="data:image/png;base64,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" />
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<div class="square-holder">
+					<img alt="" src="https://www.pmits.co.uk/Portals/0/sage business partner.jpg" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- bagian ulasan -->
+	<section id="ulasan" class="section-p1" style="background-image: url(img/bg_ulasan.png)">
+		<div class="container">
+			<div class="header-ulasan">
+				<div class="header-text">
+					<div class="row">
+						<div class="col">
+							<h1>
+								Kesan setelah join bersama KBC
+								Build ?
+							</h1>
+							<p>
+								Saatnya kamu meraih kesuksesan
+								Karier! Jadi bagian dari perjalanan
+								KBC dalam membangun Karier
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-
-		<section id="consultant" class="section-p1">
-			<div class="container">
-				<h1>Konsultan Ahli Dalam Bidangnya</h1>
-				<p>
-					Konsultasikan mengenai keluhan Anda pada kami Ahlinya,
-					berdiskusi & sharing menegenai hal yang sebelumnya
-					belum Anda ketahui
-				</p>
-				<div class="row">
-					<div class="col-sm-3">
-						<div class="card">
-							<img src="img/khoirul.png" alt="" />
-							<h5>Khoirul Fahmi</h5>
-							<p>President Director</p>
-							<p>PT Pertamina Indonesia</p>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="card">
-							<img src="img/khoirul.png" alt="" />
-							<h5>Khoirul Fahmi</h5>
-							<p>President Director</p>
-							<p>PT Pertamina Indonesia</p>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="card">
-							<img src="img/khoirul.png" alt="" />
-							<h5>Khoirul Fahmi</h5>
-							<p>President Director</p>
-							<p>PT Pertamina Indonesia</p>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="card">
-							<img src="img/khoirul.png" alt="" />
-							<h5>Khoirul Fahmi</h5>
-							<p>President Director</p>
-							<p>PT Pertamina Indonesia</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="banner" class="section-p1">
 			<div class="row">
-				<div class="col-lg-7">
-					<div class="text">
-						<h1>Ingin menjadi Konsultan ?</h1>
+				<div class="col-lg-4">
+					<div class="card">
 						<p>
-							Untuk kamu yang ingin menjadi Konsultan, KBC
-							memberikan kesempatan untuk kamu bergabung
-							menjadi konsultan.
+							"I gained so much <span>confidence</span> in my
+							ability to connect and deepen my
+							relationships with people. "
 						</p>
-						<button class="banner-button">
-							<h5>Daftar Konsultan</h5>
-						</button>
+						<h5>Jane</h5>
+						<img src="img/ulasan1.png" alt="" />
+						<div class="icon">
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+						</div>
 					</div>
 				</div>
-				<div class="col-lg-5">
+				<div class="col-lg-4">
 					<div class="card">
-						<div class="content">
-							<div class="description">
-								<img src="img/banner.png" alt="" />
-							</div>
+						<p>
+							"I gained so much <span>confidence</span> in my
+							ability to connect and deepen my
+							relationships with people. "
+						</p>
+						<h5>Jane</h5>
+						<img src="img/ulasan1.png" alt="" />
+						<div class="icon">
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card">
+						<p>
+							"I gained so much <span>confidence</span> in my
+							ability to connect and deepen my
+							relationships with people. "
+						</p>
+						<h5>Jane</h5>
+						<img src="img/ulasan1.png" alt="" />
+						<div class="icon">
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<section id="program" class="section-p1">
-			<h1>Our Program</h1>
-			<p>Berbagai macam pilihan program yang cocok untuk kamu</p>
+	<!-- bagian blog -->
+	<section id="blog" class="section-p1">
+		<div class="container">
 			<div class="row">
-				<div class="col-sm-4">
-					<div class="card">
-						<div class="temporary_text">
-							<img src="img/paper.jpg" alt="" />
-						</div>
-						<div class="card_content">
-							<span class="card_title"
-								>Digital Marketing</span
-							>
-							<span class="card_price">Rp. 160.000</span>
-							<p class="card_description body-text">
-								Lorem ipsum dolor, sit amet expedita
-								exercitationem recusandae aut dolor
-								tempora aperiam itaque possimus at,
-								cupiditate earum, quae repudiandae
-								aspernatur? Labore minus soluta
-								consequatur placeat.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card">
-						<div class="temporary_text">
-							<img src="img/paper.jpg" alt="" />
-						</div>
-						<div class="card_content">
-							<span class="card_title"
-								>Digital Marketing</span
-							>
-							<span class="card_price">Rp. 160.000</span>
-							<p class="card_description body-text">
-								Lorem ipsum dolor, sit amet expedita
-								exercitationem recusandae aut dolor
-								tempora aperiam itaque possimus at,
-								cupiditate earum, quae repudiandae
-								aspernatur? Labore minus soluta
-								consequatur placeat.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card">
-						<div class="temporary_text">
-							<img src="img/paper.jpg" alt="" />
-						</div>
-						<div class="card_content">
-							<span class="card_title"
-								>Digital Marketing</span
-							>
-							<span class="card_price">Rp. 160.000</span>
-							<p class="card_description body-text">
-								Lorem ipsum dolor, sit amet expedita
-								exercitationem recusandae aut dolor
-								tempora aperiam itaque possimus at,
-								cupiditate earum, quae repudiandae
-								aspernatur? Labore minus soluta
-								consequatur placeat.
+				<div class="col">
+					<div class="blog-header">
+						<div class="blog-text">
+							<h1>Seputar KBC</h1>
+							<p>
+								Biar otak nggak tegang, kami
+								hadirkan bacaan yang asyik,
+								menarik, dan penuh insights!
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-
-		<section id="partner" class="section-p1">
-			<h1 class="hiring-partner text-center">Hiring Partner</h1>
-			<div class="row">
-				<div class="col-sm-6 col-md-4 col-lg-3">
-					<div class="square-holder">
-						<img
-							alt=""
-							src="https://d1j87w3j7cc3a6.cloudfront.net/newsroom/media/web/image/brandbook-logo-thumbnail-5.jpg" />
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4 col-lg-3">
-					<div class="square-holder">
-						<img
-							alt=""
-							src="https://upload.wikimedia.org/wikipedia/id/thumb/5/55/BNI_logo.svg/1200px-BNI_logo.svg.png" />
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4 col-lg-3">
-					<div class="square-holder">
-						<img
-							alt=""
-							src="https://assets.grab.com/wp-content/uploads/sites/9/2021/04/15154215/Grab_Logo_2021.jpg" />
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4 col-lg-3">
-					<div class="square-holder">
-						<img
-							alt=""
-							src="https://cdn2.tstatic.net/tribunnewswiki/foto/bank/images/Logo-badan-usaha-milik-negara-BUMN.jpg" />
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4 col-lg-3">
-					<div class="square-holder">
-						<img
-							alt=""
-							src="https://images.samsung.com/is/image/samsung/assets/id/about-us/brand/logo/mo/360_197_1.png?$FB_TYPE_B_PNG$" />
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4 col-lg-3">
-					<div class="square-holder">
-						<img
-							alt=""
-							src="https://www.pmits.co.uk/Portals/0/img/opera3_logo.png" />
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4 col-lg-3">
-					<div class="square-holder">
-						<img
-							alt=""
-							src="data:image/png;base64,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" />
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4 col-lg-3">
-					<div class="square-holder">
-						<img
-							alt=""
-							src="https://www.pmits.co.uk/Portals/0/sage business partner.jpg" />
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- bagian ulasan -->
-		<section
-			id="ulasan"
-			class="section-p1"
-			style="background-image: url(img/bg_ulasan.png)">
-			<div class="container">
-				<div class="header-ulasan">
-					<div class="header-text">
+			<swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true"
+				space-between="30" centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+				<swiper-slide>
+					<div class="isi">
 						<div class="row">
-							<div class="col">
-								<h1>
-									Kesan setelah join bersama KBC
-									Build ?
-								</h1>
-								<p>
-									Saatnya kamu meraih kesuksesan
-									Karier! Jadi bagian dari perjalanan
-									KBC dalam membangun Karier
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<div class="card">
-							<p>
-								"I gained so much confidence in my
-								ability to connect and deepen my
-								relationships with people. "
-							</p>
-							<h5>Jane</h5>
-							<img src="img/ulasan1.png" alt="" />
-							<div class="icon">
-								<i class="bx bxs-star"></i>
-								<i class="bx bxs-star"></i>
-								<i class="bx bxs-star"></i>
-								<i class="bx bxs-star"></i>
-								<i class="bx bxs-star"></i>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card">
-							<p>
-								"I gained so much confidence in my
-								ability to connect and deepen my
-								relationships with people. "
-							</p>
-							<h5>Catherine</h5>
-							<img src="img/ulasan2.png" alt="" />
-							<div class="icon">
-								<i class="bx bxs-star"></i>
-								<i class="bx bxs-star"></i>
-								<i class="bx bxs-star"></i>
-								<i class="bx bxs-star"></i>
-								<i class="bx bxs-star"></i>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card">
-							<p>
-								"I gained so much confidence in my
-								ability to connect and deepen my
-								relationships with people. "
-							</p>
-							<h5>Jane</h5>
-							<img src="img/ulasan3.png" alt="" />
-							<div class="icon">
-								<i class="bx bxs-star"></i>
-								<i class="bx bxs-star"></i>
-								<i class="bx bxs-star"></i>
-								<i class="bx bxs-star"></i>
-								<i class="bx bxs-star"></i>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- bagian blog -->
-		<section id="blog" class="section-p1">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="blog-header">
-							<div class="blog-text">
-								<h1>Seputar KBC</h1>
-								<p>
-									Biar otak nggak tegang, kami
-									hadirkan bacaan yang asyik,
-									menarik, dan penuh insights!
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<swiper-container
-					class="mySwiper"
-					pagination="true"
-					pagination-clickable="true"
-					navigation="true"
-					space-between="30"
-					centered-slides="true"
-					autoplay-delay="2500"
-					autoplay-disable-on-interaction="false">
-					<swiper-slide>
-						<div class="isi">
-							<div class="row">
-								<div class="col-lg-7">
-									<div class="box">
-										<img
-											src="img/blog.png"
-											alt="" />
-									</div>
+							<div class="col-lg-6">
+								<div class="box">
+									<img src="img/blog.png" alt="" />
 								</div>
-								<div class="col-lg-5">
-									<div class="text">
-										<h5>
-											Lorem ipsum dolor sit
-											amet, consectetur
-											adipiscing elit, sed do
-										</h5>
-										<p>
-											Lorem ipsum dolor sit
-											amet, consectetur
-											adipiscing elit, sed do
-											eiusmod tempor incididunt
-											ut labore et dolore magna
-											aliqua minim veniam.
-										</p>
-										<a href=""
-											>Baca Selengkapnya</a
-										>
-									</div>
+							</div>
+							<div class="col-lg-5">
+								<div class="text">
+									<h5>
+										Lorem ipsum dolor sit
+										amet, consectetur
+										adipiscing elit, sed do
+									</h5>
+									<p>
+										Lorem ipsum dolor sit
+										amet, consectetur
+										adipiscing elit, sed do
+										eiusmod tempor incididunt
+										ut labore et dolore magna
+										aliqua minim veniam.
+									</p>
+									<a href="">Baca Selengkapnya</a>
 								</div>
 							</div>
 						</div>
-					</swiper-slide>
-					<swiper-slide>Slide 2</swiper-slide>
-					<swiper-slide>Slide 3</swiper-slide>
-					<swiper-slide>Slide 4</swiper-slide>
-					<swiper-slide>Slide 5</swiper-slide>
-					<swiper-slide>Slide 6</swiper-slide>
-					<swiper-slide>Slide 7</swiper-slide>
-					<swiper-slide>Slide 8</swiper-slide>
-					<swiper-slide>Slide 9</swiper-slide>
-				</swiper-container>
-			</div>
-		</section>
+					</div>
+				</swiper-slide>
+				<swiper-slide>Slide 2</swiper-slide>
+				<swiper-slide>Slide 3</swiper-slide>
+				<swiper-slide>Slide 4</swiper-slide>
+				<swiper-slide>Slide 5</swiper-slide>
+				<swiper-slide>Slide 6</swiper-slide>
+				<swiper-slide>Slide 7</swiper-slide>
+				<swiper-slide>Slide 8</swiper-slide>
+				<swiper-slide>Slide 9</swiper-slide>
+			</swiper-container>
+		</div>
+	</section>
 
-		<!-- bagian footer -->
-		<section id="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col mb-3">
-						<div class="footer-wrap">
-							<img
-								src="https://kbc.or.id/img/general/KBC-Logo_1594107681.png"
-								alt="" />
-							<p class="body-text">
-								Yayasan niralaba dengan fokus untuk
-								memiliki transformasi pola pikir dalam
-								melakukan bisnis/pekerjaan untuk
-								mempraktekkan nilai spritual dalam
-								bekerja.
-							</p>
-						</div>
-						<div class="pt-4">
-							<div class="search-bar">
-								<input
-									placeholder="Alamat email anda . . . "
-									type="text"
-									class="input" />
-								<button class="primary-button">
-									Subscribe
-								</button>
-							</div>
+	<!-- bagian footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col mb-3">
+					<div class="footer-wrap">
+						<img src="https://kbc.or.id/img/general/KBC-Logo_1594107681.png" alt="" />
+						<p class="body-text">
+							Yayasan niralaba dengan fokus untuk
+							memiliki transformasi pola pikir dalam
+							melakukan bisnis/pekerjaan untuk
+							mempraktekkan nilai spritual dalam
+							bekerja.
+						</p>
+					</div>
+					<div class="pt-4">
+						<div class="search-bar">
+							<input placeholder="Alamat email anda . . . " type="text" class="input" />
+							<button class="primary-button">
+								Subscribe
+							</button>
 						</div>
 					</div>
+				</div>
 
-					<div class="col-8 col-md-2 mb-4">
-						<h5>Layanan</h5>
-						<p>Konsultasi</p>
-						<p>Pelatihan</p>
-						<p>Pelatihan Berkelompok</p>
-					</div>
+				<div class="col-8 col-md-2 mb-4">
+					<h5>Layanan</h5>
+					<p>Konsultasi</p>
+					<p>Pelatihan</p>
+					<p>Pelatihan Berkelompok</p>
+				</div>
 
-					<div class="col-6 col-md-2 mb-4">
-						<h5>Program Kami</h5>
-						<p>Jakarta</p>
-						<p>West Java</p>
-						<p>East Java</p>
-						<p>Samarinda</p>
-					</div>
+				<div class="col-6 col-md-2 mb-4">
+					<h5>Program Kami</h5>
+					<p>Jakarta</p>
+					<p>West Java</p>
+					<p>East Java</p>
+					<p>Samarinda</p>
+				</div>
 
-					<div class="col-6 col-md-2 mb-4">
-						<h5>Perusahaan</h5>
-						<p>Tentang Kami</p>
-						<p>Hubungi Kami</p>
-						<p>Karir</p>
-						<p>Budaya</p>
-					</div>
-					<div
-						class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
-						<div class="footer-social-media">
-							<p class="mb-3 mb-md-0">
-								Copyright © 2023 Kingdom Business
-								Comunity All Rights Reserved Terms and
-								Conditions Privacy Policy
-							</p>
+				<div class="col-6 col-md-2 mb-4">
+					<h5>Perusahaan</h5>
+					<p>Tentang Kami</p>
+					<p>Hubungi Kami</p>
+					<p>Karir</p>
+					<p>Budaya</p>
+				</div>
+				<div class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+					<div class="footer-social-media">
+						<p class="mb-3 mb-md-0">
+							Copyright © 2023 Kingdom Business
+							Comunity All Rights Reserved Terms and
+							Conditions Privacy Policy
+						</p>
 
-							<div class="social-media">
-								<button>
-									<i class="bi bi-telephone-fill">
-									</i>
-								</button>
-								<button>
-									<i class="bi bi-envelope-fill">
-									</i>
-								</button>
-								<button>
-									<i class="bi bi-facebook"> </i>
-								</button>
-								<button>
-									<i class="bi bi-youtube"> </i>
-								</button>
-								<button>
-									<i class="bi bi-instagram"> </i>
-								</button>
-							</div>
+						<div class="social-media">
+							<button>
+								<i class="bi bi-telephone-fill">
+								</i>
+							</button>
+							<button>
+								<i class="bi bi-envelope-fill">
+								</i>
+							</button>
+							<button>
+								<i class="bi bi-facebook"> </i>
+							</button>
+							<button>
+								<i class="bi bi-youtube"> </i>
+							</button>
+							<button>
+								<i class="bi bi-instagram"> </i>
+							</button>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<!-- swiper js -->
-		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-		<!-- script -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-		<script src="/js/script.js"></script>
-	</body>
+	<!-- swiper js -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+	<!-- script -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="/js/script.js"></script>
+</body>
+
 </html>
