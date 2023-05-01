@@ -424,6 +424,7 @@
 swiper-container {
 	width: 100%;
 	height: 100%;
+	padding: 200px;
 }
 
 swiper-slide {
@@ -439,4 +440,68 @@ swiper-slide img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+#consultant .testimonial {
+	position: relative;
+	width: 100%;
+	padding: 0 0 50px 0;
+	overflow: hidden;
+}
+#consultant .testimonial .image {
+	height: 170px;
+	width: 170px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+#consultant .slide .quote-icon {
+	font-size: 30px;
+	color: #4070f4;
+}
+#consultant .slide .details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#consultant .details .name {
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+}
+#consultant .details .job {
+	font-size: 12px;
+	font-weight: 400;
+	color: #333;
+}
+/* swiper button css */
+#consultant .nav-btn {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	transform: translateY(-25px);
+	background-color: rgba(0, 0, 0, 0.1);
+	transition: 0.2s;
+}
+#consultant .nav-btn:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+#consultant .nav-btn::after,
+#consultant .nav-btn::before {
+	font-size: 20px;
+	color: #fff;
+}
+#consultant .swiper-pagination-bullet {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+#consultant .swiper-pagination-bullet-active {
+	background-color: #4070f4;
+}
+@media screen and (max-width: 768px) {
+	#consultant .slide p {
+		padding: 0 20px;
+	}
+	#consultant .nav-btn {
+		display: none;
+	}
 }
