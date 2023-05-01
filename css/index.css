@@ -133,27 +133,43 @@
 
 #banner {
 	text-align: center;
-	background-color: var(--secondary-color-2);
+	height: 320px;
+	background-color: var(--secondary-color-3);
+}
+
+#banner .text h1 {
+	font-family: "Manrope";
+	color: var(--primary-color-6);
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 54px;
+	margin-top: 40px;
 }
 
 #banner .text p {
+	font-family: "Manrope";
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
 	color: var(--primary-color-5);
 }
 
 #banner .banner-button {
 	background-color: var(--primary-color-9);
 	color: white;
-	padding: 10px 10px;
-	border-radius: 12px;
+	padding: 12px 20px;
+	width: 161px;
+	height: 44px;
+	border-radius: 8px;
 	align-items: center;
 	border: none;
 }
 
 #banner h5 {
-	font-size: 17px;
-	font-weight: 500;
-	margin: 0;
-	font-family: inherit;
+	font-family: "Manrope";
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
 }
 
 #banner .card {
@@ -349,16 +365,22 @@
 	height: 650px;
 }
 
-#ulasan .header-text {
-	text-align: center;
-}
-
 #ulasan .header-text h1 {
-	margin-top: 40px;
+	font-family: "Manrope";
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 72px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: -10px;
 }
 
 #ulasan .header-text p {
-	margin-bottom: 80px;
+	font-family: "Manrope";
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 72px;
+	text-align: center;
 }
 
 #ulasan .header-text h1,
@@ -366,23 +388,53 @@
 	color: #ffffff;
 }
 
-#ulasan .header-text h1 {
-	font-size: 44px;
-}
-
 #ulasan .card {
 	margin-left: 25px;
 	margin-right: 25px;
-	height: 280px;
-	width: 275px;
+	height: 370px;
+	width: 320px;
 	padding: 20px 30px;
 	background-color: var(--gray-color-2);
 	border-radius: 20px;
 	border: none;
 }
 
+#ulasan .card p {
+	font-family: "Kumbh Sans";
+	color: #4a556c;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: -0.03em;
+	width: 304px;
+	height: 128px;
+	margin-top: 30px;
+}
+
+#ulasan .card p span {
+	font-family: "Kumbh Sans";
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: -0.03em;
+	width: 304px;
+	height: 128px;
+}
+
+#ulasan .card h5 {
+	font-family: "Kumbh Sans";
+	color: #333461;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: -0.03em;
+	width: 304px;
+	height: 32px;
+}
+
 #ulasan .card img {
 	width: 20%;
+	margin-bottom: 10px;
 }
 
 #ulasan i {
@@ -396,28 +448,63 @@
 
 /* ----------- BLOG SECTION ----------- */
 
-#blog .blog-text {
+#blog .blog-text h1,
+#blog .blog-text p {
 	text-align: center;
+	color: var(--primary-color-7);
+}
+
+#blog .blog-text h1 {
+	font-family: "Manrope";
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 54px;
 }
 
 #blog .blog-text p {
-	color: var(--blog-p);
-}
-
-#blog .isi {
+	font-family: "Manrope";
+	font-weight: 500;
+	font-size: 20px;
 	margin-top: 50px;
 }
 
 #blog .box img {
-	width: 450px;
+	padding-left: 50px;
+	width: 490px;
+}
+
+#blog .text h5 {
+	font-family: "Manrope";
+	color: var(--gray-color-5);
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+#blog .text p {
+	font-family: "Inter";
+	color: var(--gray-color-5);
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#blog .text h5,
+#blog .text p {
+	padding-right: 55px;
 }
 
 #blog .text {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 #blog .text a {
-	color: var(--blog-link);
+	font-family: "Inter";
+	font-size: 16px;
+	line-height: 26px;
+	color: var(--primary-color-7);
 	text-decoration: underline;
 }
 
