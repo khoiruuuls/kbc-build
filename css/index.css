@@ -122,8 +122,12 @@
 }
 
 #consultant .card img {
-	width: 100%;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: top;
 	margin-bottom: 20px;
+	border-radius: 8px;
 }
 
 #consultant .card p {
@@ -266,10 +270,15 @@
 #program .card {
 	position: relative;
 	width: 350px;
-	height: 450px;
+	height: 425px;
 	overflow: hidden;
 	border-radius: 20px;
 	border-radius: none;
+}
+
+#program .card .temporary_text img {
+	object-position: top;
+	object-fit: contain;
 }
 
 #program .card_title {
@@ -284,22 +293,9 @@
 	width: 100%;
 	padding: 20px;
 	background: #f2f2f2;
-	border-top-left-radius: 20px;
 	/* edit here to change the height of the content box */
 	transform: translateY(130px);
 	transition: transform 0.25s;
-}
-
-#program .card_content::before {
-	content: "";
-	position: absolute;
-	top: -47px;
-	right: -45px;
-	width: 100px;
-	height: 100px;
-	transform: rotate(-175deg);
-	border-radius: 50%;
-	box-shadow: inset 48px 48px #f2f2f2;
 }
 
 #program .card_title {
