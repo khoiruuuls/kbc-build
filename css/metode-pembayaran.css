@@ -4,6 +4,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
+    margin-top: 50px;
     line-height: 150%;
     color: var(--gray-color-7);
 }
@@ -24,12 +25,15 @@
 }
 
 /*=============== METODE PEMBAYARAN ===============*/
-#bank .title h3 {
+#bank .title h3,
+#e-wallet .title h3 {
     height: 50px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
     line-height: 150%;
     /* identical to box height, or 30px */
 
@@ -39,7 +43,14 @@
     color: #000000;
 }
 
-#bank .card-bca {
+#bank .card-bca,
+#bank .card-bri,
+#bank .card-bni,
+#bank .card-mandiri,
+#e-wallet .card-shopeepay,
+#e-wallet .card-ovo,
+#e-wallet .card-gopay,
+#e-wallet .card-linkaja {
     box-sizing: border-box;
 
     /* Auto layout */
@@ -48,12 +59,41 @@
     flex-direction: row;
     align-items: center;
     padding: 10px 50px;
+    margin-top: 10px;
     gap: 20px;
     height: 100px;
 
     background: #FFFFFF;
     /* Gray/04 */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 
     border: 1px solid #B7B3A9;
     border-radius: 15px;
+}
+
+#bank .card-bca p,
+#bank .card-bri p,
+#bank .card-bni p,
+#bank .card-mandiri p,
+#e-wallet .card-shopeepay p,
+#e-wallet .card-ovo p,
+#e-wallet .card-gopay p,
+#e-wallet .card-linkaja p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 150%;
+    /* or 24px */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+/*=============== FOOTER ===============*/
+#footer {
+    margin-top: 100px;
 }
