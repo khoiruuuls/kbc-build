@@ -1,0 +1,227 @@
+/*=============== HERO ===============*/
+#hero a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--gray-color-7);
+}
+
+#hero i {
+    padding-right: 50px;
+
+}
+
+.hero__link {
+    color: var(--primary-color-5);
+    font-weight: var(--font-bold);
+    padding: 1.25rem 0;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+/*=============== TIKET ===============*/
+#tiket .card-tiket {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+
+    border: 1px solid var(--gray-color-4);
+    border-radius: 15px;
+}
+
+#tiket .card-text {
+    padding: 0 0 0 10px;
+}
+
+#tiket .card-text h5 {
+    width: 1054px;
+    height: 22px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+
+    letter-spacing: -0.03em;
+    color: var(--secondary-color-5);
+}
+
+#tiket .card-text h6 {
+    width: 1054px;
+    height: 27px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: var(--gray-color-8);
+}
+
+#tiket .card-text .text {
+    width: 1054px;
+    height: 26px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+
+    letter-spacing: -0.02em;
+    columns: var(--gray-color-5);
+}
+
+#tiket .card-text .harga {
+    width: 1054px;
+    height: 29px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: var(--primary-color-5);
+}
+
+/*=============== FORM ===============*/
+#form .form-nama .nama,
+#form .form-email .email,
+#form .form-telp .telp {
+    width: 1054px;
+    height: 29px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: var(--black-color);
+}
+
+#form .form-email .email,
+#form .form-telp .telp {
+    margin-top: 10px;
+}
+
+#form .form-nama .text,
+#form .form-email .text {
+    width: 1054px;
+    height: 29px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: var(--gray-color-5);
+}
+
+#form .form-nama .input-nama input,
+#form .form-email .input-email input,
+#form .form-telp .input-telp input {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 20px;
+    gap: 4px;
+
+    width: 1120px;
+    height: 50px;
+
+    background: var(--white-color);
+
+    border: 1px solid var(--gray-color-4);
+
+    box-shadow: inset 1px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+}
+
+/*=============== DETAIL HARGA ===============*/
+#detail_harga .title-detail h3 {
+    width: 222px;
+    height: 32px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--black-color);
+}
+
+#subtotal,
+#layanan {
+    width: 222px;
+    height: 32px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--black-color);
+}
+
+#subtotal-harga,
+#layanan-harga {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--black-color);
+}
+
+#total {
+    width: 222px;
+    height: 32px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--black-color);
+}
+
+#total-harga {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--black-color);
+}
+
+#detail_harga a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    color: var(--white-color);
+}
+
+#detail_harga .button_harga {
+    margin-top: 50px;
+    margin-left: 440px;
+}

@@ -1,0 +1,59 @@
+/*=============== HERO ===============*/
+#hero a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--gray-color-7);
+}
+
+#hero i {
+    padding-right: 50px;
+
+}
+
+.hero__link {
+    color: var(--primary-color-5);
+    font-weight: var(--font-bold);
+    padding: 1.25rem 0;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+/*=============== METODE PEMBAYARAN ===============*/
+#bank .title h3 {
+    height: 50px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+#bank .card-bca {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 50px;
+    gap: 20px;
+    height: 100px;
+
+    background: #FFFFFF;
+    /* Gray/04 */
+
+    border: 1px solid #B7B3A9;
+    border-radius: 15px;
+}
