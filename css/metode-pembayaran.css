@@ -1,11 +1,10 @@
 /*=============== HERO ===============*/
 #hero a {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
+    font-family: var(--body-font);
+    font-weight: var(--font-semi-bold);
     font-size: 20px;
     margin-top: 50px;
-    line-height: 150%;
+    line-height: var(--line-height2);
     color: var(--gray-color-7);
 }
 
@@ -28,19 +27,18 @@
 #bank .title h3,
 #e-wallet .title h3 {
     height: 50px;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
+    font-family: var(--body-font);
+    font-weight: var(--font-semi-bold);
     font-size: 20px;
     padding-left: 20px;
     margin-top: 20px;
-    line-height: 150%;
+    line-height: var(--line-height2);
     /* identical to box height, or 30px */
 
     display: flex;
     align-items: center;
 
-    color: #000000;
+    color: var(--black-color);
 }
 
 #bank .card-bca,
@@ -63,11 +61,11 @@
     gap: 20px;
     height: 100px;
 
-    background: #FFFFFF;
+    background: var(--white-color);
     /* Gray/04 */
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 
-    border: 1px solid #B7B3A9;
+    border: 1px solid var(--gray-color-4);
     border-radius: 15px;
 }
 
@@ -79,18 +77,17 @@
 #e-wallet .card-ovo p,
 #e-wallet .card-gopay p,
 #e-wallet .card-linkaja p {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
+    font-family: var(--body-font);
+    font-weight: var(--font-semi-bold);
     font-size: 20px;
     margin-top: 15px;
-    line-height: 150%;
+    line-height: var(--line-height2);
     /* or 24px */
 
     display: flex;
     align-items: center;
 
-    color: #000000;
+    color: var(--black-color);
 }
 
 /*=============== FOOTER ===============*/

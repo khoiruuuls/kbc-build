@@ -14,21 +14,19 @@
 
 #header-route .route p,
 #header-route .route i {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
+    font-family: var(--body-font);
+    font-weight: var(--font-semi-bold);
     font-size: 20px;
-    line-height: 150%;
+    line-height: var(--line-height2);
     color: var(--primary-color-4);
 }
 
 /*=============== PERIOD ===============*/
 #header-period .title-period h3 {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
+    font-family: var(--body-font);
+    font-weight: var(--font-semi-bold);
     font-size: 34px;
-    line-height: 140%;
+    line-height: var(--line-height1);
     color: var(--black-color);
 }
 
@@ -69,7 +67,7 @@
 
     /* Secondary/01 */
 
-    background: #FBF2CD;
+    background: var(--white-color);
     /* shadow */
 
     box-shadow: -2px 4px 20px rgba(0, 0, 0, 0.15);
@@ -80,40 +78,37 @@
 
     /* Title/Reguler 20 */
 
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
+    font-family: var(--body-font);
+    font-weight: var(--font-regular);
     font-size: 20px;
     margin-top: 20px;
-    line-height: 150%;
+    line-height: var(--line-height2);
     /* or 30px */
     text-align: center;
 
-    color: #000000;
+    color: var(--black-color);
 }
 
 .card-price-content p {
 
     /* Title/Semibold 20 */
 
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
+    font-family: var(--body-font);
+    font-weight: var(--font-semi-bold);
     font-size: 20px;
-    line-height: 150%;
+    line-height: var(--line-height2);
     margin-top: 30px;
 
     text-align: center;
     /* Primary/08 */
 
-    color: #402108;
+    color: var(--primary-color-8);
 }
 
 .button_price a {
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
+    font-family: var(--button-font);
+    font-weight: var(--font-medium);
     font-size: 18px;
     line-height: 27px;
     margin-top: 20px;
@@ -123,22 +118,20 @@
 
     /* BWA/White */
 
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 /*=============== DETAIL PROGRAM ===============*/
 .title-detail-program h5 {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
+    font-family: var(--body-font);
+    font-weight: var(--font-semi-bold);
     font-size: 20px;
-    line-height: 150%;
+    line-height: var(--line-height2);
     /* identical to box height, or 30px */
 
 
     /* Neutral/02 */
-
-    color: #000000;
+    color: var(--black-color)
 }
 
 .title-detail-program .garis {
@@ -148,19 +141,18 @@
 
     /* Primary/04 */
 
-    border: 2px solid #A9844A;
+    border: 2px solid var(--primary-color-4);
 }
 
 .text-detail-program p {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
+    font-family: var(--body-font);
+    font-weight: var(--font-regular);
     font-size: 16px;
     margin-top: 20px;
-    line-height: 150%;
+    line-height: var(--line-height2);
     /* or 24px */
 
     text-align: justify;
 
-    color: #000000;
+    color: var(--black-color);
 }

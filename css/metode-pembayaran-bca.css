@@ -1,0 +1,289 @@
+/*=============== KONTEN ===============*/
+#content .card-waktu-pembayaran {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+    position: sticky;
+    width: 380px;
+    height: 100vh;
+    left: 95px;
+    top: 126px;
+
+    color: var(--gray-color-6);
+    /* Secondary/01 */
+
+    background: var(--secondary-color-1);
+    /* shadow */
+
+    box-shadow: -2px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+#content .waktu-pembayaran p {
+    font-size: 20px;
+    color: var(--gray-color-6);
+}
+
+#content .card-waktu-pembayaran #waktu {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 28px;
+    gap: 5px;
+
+    width: 220px;
+    height: 69.44px;
+
+    background: rgba(255, 255, 255, 0.5);
+    /* shadow */
+
+    box-shadow: -2px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+#waktu {
+    font-size: 48px;
+    color: var(--primary-color-9);
+    font-weight: bold;
+    text-align: center;
+}
+
+#waktu span {
+    display: block;
+    font-size: 20px;
+}
+
+.smalltext {
+    font-size: 16px;
+}
+
+#content .selesaikan-pembayaran #selesai {
+    margin-top: 20px;
+    color: var(--gray-color-6);
+    text-align: center;
+}
+
+#content .selesaikan-pembayaran #tanggal {
+    margin-top: -10px;
+    font-size: 21px;
+    color: var(--primary-color-6);
+    text-align: center;
+}
+
+#content .card-selesaikan-pembayaran {
+    padding: 20px;
+
+    width: 320px;
+    height: 300px;
+
+    background: var(--white-color);
+    /* shadow */
+
+    box-shadow: -2px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+
+}
+
+#content .card-selesaikan-pembayaran img {
+    padding-left: 90px;
+    padding-bottom: 10px;
+}
+
+#content .card-selesaikan-pembayaran .text1 h6,
+#content .card-selesaikan-pembayaran .text2 h6,
+#content .card-selesaikan-pembayaran .text3 h6 {
+    font-size: 16px;
+    color: var(--gray-color-4);
+}
+
+#content .card-selesaikan-pembayaran .text1 p,
+#content .card-selesaikan-pembayaran .text2 p,
+#content .card-selesaikan-pembayaran .text3 p {
+    color: var(--black-color);
+}
+
+#content .card-selesaikan-pembayaran .text2 i {
+    padding-left: 120px;
+    color: var(--gray-color-4);
+}
+
+#content .card-selesaikan-pembayaran .text3 p {
+    font-size: 20px;
+}
+
+#content .petunjuk-pembayaran {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 20px;
+    gap: 70px;
+
+    width: 306.89px;
+    height: 64px;
+
+    background: rgba(255, 255, 255, 0.5);
+    /* shadow */
+
+    box-shadow: -2px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+#content .petunjuk-pembayaran i {
+    font-size: 22px;
+}
+
+#content .petunjuk-pembayaran #myBtn {
+    font-family: var(--body-font);
+    font-weight: var(--font-semi-bold);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin-top: 100px;
+    margin-left: 105px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+.close {
+    color: #aaa;
+    margin-left: 340px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#content .card-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 20px;
+
+    position: absolute;
+    width: 724px;
+    height: 80vh;
+    left: 520px;
+    top: 126px;
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: -2px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.card-banner img {
+    background: #FFFFFF;
+    width: 650px;
+}
+
+.card-body {
+    background: #FFFFFF;
+    margin-left: -250px;
+    margin-top: -25px;
+}
+
+.card-body h6 {
+    color: var(--secondary-color-5);
+    font-size: 22px;
+}
+
+.card-body h5 {
+    color: var(--black-color);
+    font-size: 24px;
+}
+
+.card-text {
+    color: var(--gray-color-5);
+    display: flex;
+    column-gap: 10px;
+}
+
+.card-text i {
+    color: var(--gray-color-5);
+    font-size: 20px;
+}
+
+#bagikan-event {
+    margin-top: -40px;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+
+    position: absolute;
+    width: 724px;
+    height: 19vh;
+    left: 520px;
+    top: 709px;
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: -2px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+#bagikan-event h6 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#bagikan-event p {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+#bagikan-event .social-media i {
+    color: var(--white-color);
+}
+
+#bagikan-event .social-media {
+    margin-top: -60px;
+    margin-right: 50px;
+    text-align: end;
+}
+
+#bagikan-event .social-media button {
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+    background: var(--primary-color-5);
+    font-size: 17px;
+    text-decoration: none;
+    border: 1px solid var(--secondary-color-4);
+    border-radius: 90px;
+    color: rgb(40, 144, 241);
+    transition: color 0.3s 0.1s ease-out;
+}
+
+#bagikan-event .social-media button:hover {
+    background-color: var(--secondary-color-4);
+    transition: color 0.3s 0.1s ease-out;
+    color: white;
+    border: none;
+}
