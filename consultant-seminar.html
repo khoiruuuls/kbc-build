@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KBC Build - Consultan Seminar</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="https://kbc.or.id/img/general/KBC-Logo_1594107681.png" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- css style -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/consultan-seminar.css">
+</head>
+
+<body>
+    <!-- bagian navbar & sidebar-->
+    <section id="navbar">
+        <div class="container--navbar">
+            <div class="row">
+                <div class="col">
+                    <div class="navbar">
+                        <a href="#"><i class="ri-notification-2-line"></i></a>
+                        <div class="line"></div>
+                        <a href="#"><i class="ri-account-circle-line"></i> Consultan 1</a>
+                    </div>
+                    <div class="sidebar">
+                        <a href="" class="nav-logo">
+                            <img id="logo" src="https://kbc.or.id/img/general/KBC-Logo_1594107681.png" class="logo"
+                                alt="" />
+                        </a>
+                        <a href="#"><i class="ri-dashboard-line"></i> Dashboard</a>
+                        <button class="dropdown-btn"><i class="ri-stack-line"></i></i> My Program
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-container">
+                            <a href="#"><i class="fa fa-tag"></i> Kategori 1</a>
+                            <a href="#"><i class="fa fa-tag"></i> Kategori 2</a>
+                            <a href="#"><i class="fa fa-tag"></i> Kategori 3</a>
+                        </div>
+                        <button class="dropdown-btn"><i class="ri-account-circle-line"></i> Profile
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-container">
+                            <a href="#"><i class="fa fa-tag"></i> Kategori 1</a>
+                            <a href="#"><i class="fa fa-tag"></i> Kategori 2</a>
+                            <a href="#"><i class="fa fa-tag"></i> Kategori 3</a>
+                        </div>
+                        <div class="garis"></div>
+                        <a href="#"><i class="ri-settings-line"></i> Account</a>
+                        <a href="#"><i class="ri-logout-circle-line"></i> Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- konten -->
+    <section id="konten">
+        <div class="container--content">
+            <div class="content">
+                <!-- route -->
+                <div class="route">
+                    <p><strong>Program</strong></p>
+                    <i class="bi bi-chevron-right"></i>
+                    <p><strong>Training</strong></p>
+                    <i class="bi bi-chevron-right"></i>
+                    <p><span>Kepemimpinan</span></p>
+                    <div class="button--program">
+                        <a href="" type="submit" class=""><i class="ri-add-line"></i>
+                            Buat Program
+                        </a>
+                    </div>
+                </div>
+                <!-- headline -->
+                <div class="headline--content">
+                    <div class="title--headline">
+                        <h6>Data Program Seminar</h6>
+                    </div>
+                    <div class="body--headline">
+                        <div class="search-bar">
+                            <input placeholder="Cari Seminar" type="text" class="input" />
+                            <button class="primary-button">
+                                <i class="ri-search-line"></i>
+                            </button>
+                        </div>
+                        <div class="form--dropdown">
+                            <h6>Urutkan:</h6>
+                            <div class="input--dropdown">
+                                <select class="form">
+                                    <option selected> Waktu Mulai (Terdekat)</option>
+                                    <option value="1">15 Maret 2023</option>
+                                    <option value="2">1 Januari 2024</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kategori -->
+                <div class="kategori--content">
+                    <ul>
+                        <li class="active">Semua</li>
+                        <li>Aktif</li>
+                        <li>Draft</li>
+                        <li>Menunggu Persetujuan</li>
+                    </ul>
+                </div>
+                <!-- table -->
+                <div class="table--section">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>No.</th>
+                                <th>Title</th>
+                                <th>Tanggal</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Digital Marketing</td>
+                                <td>28 Mei 2023</td>
+                                <td>
+                                    <p class="menunggu">Menunggu</p>
+                                </td>
+                                <td>
+                                    <button><i class="ri-eye-line"></i></button>
+                                    <button><i class="ri-edit-line"></i></button>
+                                    <button><i class="ri-delete-bin-5-line"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Accounting</td>
+                                <td>20 Mei 2023</td>
+                                <td>
+                                    <p class="menunggu">Menunggu</p>
+                                </td>
+                                <td>
+                                    <button><i class="ri-eye-line"></i></button>
+                                    <button><i class="ri-edit-line"></i></button>
+                                    <button><i class="ri-delete-bin-5-line"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Management Risk</td>
+                                <td>28 Juni 2023</td>
+                                <td>
+                                    <p class="active">Active</p>
+                                </td>
+                                <td>
+                                    <button><i class="ri-eye-line"></i></button>
+                                    <button><i class="ri-edit-line"></i></button>
+                                    <button><i class="ri-delete-bin-5-line"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Fostering creativity, critical thinking, communication and collaboration for
+                                    sustainable business</td>
+                                <td>27 Juli 2023</td>
+                                <td>
+                                    <p class="draf">Draf</p>
+                                </td>
+                                <td>
+                                    <button><i class="ri-eye-line"></i></button>
+                                    <button><i class="ri-edit-line"></i></button>
+                                    <button><i class="ri-delete-bin-5-line"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Strategic Digital Marketing for Leaders</td>
+                                <td>29 Juli 2023</td>
+                                <td>
+                                    <p class="draf">Draf</p>
+                                </td>
+                                <td>
+                                    <button><i class="ri-eye-line"></i></button>
+                                    <button><i class="ri-edit-line"></i></button>
+                                    <button><i class="ri-delete-bin-5-line"></i></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- last -->
+                <div class="show--content">
+                    <p>Showing 1 to 5 of 57 entries</p>
+                    <section id="pagination">
+                        <div class="container">
+                            <button class="button prevNext" id="prev" disabled>
+                                <i class="bi bi-chevron-left"></i>
+                            </button>
+                            <div class="links">
+                                <a href="#" class="link active">1</a>
+                                <a href="#" class="link">2</a>
+                                <a href="#" class="link">3</a>
+                                <a href="#" class="link">4</a>
+                                <a href="#" class="link">5</a>
+                            </div>
+                            <button class="button prevNext" id="next">
+                                <i class="bi bi-chevron-right"></i>
+                            </button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/consultan-seminar.js"></script>
+</body>
+
+</html>
