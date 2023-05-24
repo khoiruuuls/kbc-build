@@ -176,11 +176,10 @@
 }
 
 .bank h6 {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
+    font-family: var(--body-font);
+    font-weight: var(--font-regular);
     font-size: 16px;
-    line-height: 150%;
+    line-height: var(--line-height2);
     margin-left: 20px;
     /* identical to box height, or 21px */
 
@@ -202,32 +201,30 @@
 }
 
 .nama--kartu h6 {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
+    font-family: var(--body-font);
+    font-weight: var(--font-semi-bold);
     font-size: 20px;
-    line-height: 150%;
+    line-height: var(--line-height2);
     margin-top: -20px;
     /* identical to box height, or 30px */
 
 
     /* Gray/07 */
 
-    color: #483F2D;
+    color: var(--gray-color-7);
 }
 
 .nama--kartu p {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
+    font-family: var(--body-font);
+    font-weight: var(--font-regular);
     font-size: 16px;
-    line-height: 150%;
+    line-height: var(--line-height2);
     /* identical to box height, or 24px */
 
 
     /* Gray/07 */
 
-    color: #483F2D;
+    color: var(--gray-color-7);
 }
 
 .nama--kartu {
@@ -235,18 +232,17 @@
 }
 
 .text p {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
+    font-family: var(--body-font);
+    font-weight: var(--font-semi-bold);
     font-size: 20px;
-    line-height: 150%;
+    line-height: var(--line-height2);
     margin-left: 320px;
     /* identical to box height, or 30px */
 
 
     /* System/Success/06 */
 
-    color: #22C55E;
+    color: var(--success-color-6);
 }
 
 /* ----------- KONTEN ----------- */
