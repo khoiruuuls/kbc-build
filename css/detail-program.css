@@ -1,9 +1,3 @@
-/*=============== HEADER ===============*/
-#header-program .container-program img {
-    width: 100%;
-    height: 558px;
-}
-
 /*=============== ROUTE ===============*/
 #header-route .route {
     margin-top: 30px;
@@ -15,44 +9,551 @@
 #header-route .route p,
 #header-route .route i {
     font-family: var(--body-font);
-    font-weight: var(--font-semi-bold);
-    font-size: 20px;
+    font-weight: var(--font-bold);
+    font-size: 16px;
     line-height: var(--line-height2);
+    /* identical to box height, or 21px */
+
+
+    /* Gray/08 */
+
+    color: var(--gray-color-8);
+}
+
+#header-route .route .last {
+    font-family: var(--body-font);
+    font-weight: var(--font-regular);
+    font-size: 16px;
+    line-height: var(--line-height2);
+    /* identical to box height, or 21px */
+
+
+    /* Gray/05 */
+
+    color: var(--gray-color-5);
+
+}
+
+/*=============== HEADER ===============*/
+#header-program .banner-program img {
+    width: 700px;
+    height: 446px;
+}
+
+#header-program .box-program {
+    box-sizing: border-box;
+
+    width: 400px;
+    height: 446px;
+    padding: 20px;
+
+    /* Neutral/01 */
+
+    background: #FFFFFF;
+    /* Gray/03 */
+
+    border: 1px solid #E7E3DA;
+    /* Card Shadow */
+
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#header-program .title-box-program h6 {
+    font-family: var(--body-font);
+    font-weight: var(--font-extrabold);
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    margin-bottom: 20px;
+
+    /* Gray/08 */
+
+    color: var(--gray-color-8);
+}
+
+.garis {
+    width: 340px;
+    height: 0px;
+    margin-bottom: 20px;
+
+    /* Gray/03 */
+
+    border: 1px solid var(--gray-color-3);
+
+}
+
+.ikon-text {
+    display: flex;
+    gap: 5px;
+}
+
+.ikon-text i {
+    font-size: 16px;
     color: var(--primary-color-4);
 }
 
+.ikon-text #text {
+    font-family: var(--body-font);
+    font-weight: var(--font-extrabold);
+    font-size: 16px;
+    line-height: var(--line-height2);
+    margin-bottom: -5px;
+    /* identical to box height, or 21px */
+
+    /* Gray/06 */
+    color: var(--gray-color-6);
+}
+
+.text-box-program p {
+    font-family: var(--body-font);
+    font-weight: var(--font-regular);
+    font-size: 16px;
+    line-height: var(--line-height2);
+    /* identical to box height, or 21px */
+
+    /* Gray/06 */
+    color: var(--gray-color-6);
+}
+
+.body-penyelenggara-program {
+    display: flex;
+    gap: 30px;
+}
+
+.text-penyelenggara {
+    margin-top: 5px;
+}
+
+.text-penyelenggara p {
+    font-family: var(--body-font);
+    font-weight: var(--font-extrabold);
+    font-size: 18px;
+    line-height: 150%;
+
+    /* Gray/09 */
+    color: var(--gray-color-9);
+}
+
+.text-rating {
+    display: flex;
+    margin-top: -10px;
+    gap: 1px;
+    font-family: var(--body-font);
+    font-weight: var(--font-medium);
+    font-size: 14px;
+    line-height: var(--line-height2);
+    color: var(--warning-color-5);
+}
+
+.text-rating p {
+    margin-left: 10px;
+    font-family: var(--body-font);
+    font-weight: var(--font-medium);
+    font-size: 14px;
+    line-height: var(--line-height2);
+
+    /* Gray/06 */
+    color: var(--gray-color-6);
+}
+
+.title-penyelenggara-program h6 {
+    font-family: var(--body-font);
+    font-weight: var(--font-regular);
+    font-size: 16px;
+    line-height: var(--line-height2);
+    /* identical to box height, or 21px */
+
+    /* Gray/05 */
+    color: var(--gray-color-5);
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+}
+
+.circle img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*=============== KONTEN ===============*/
+/* LEFT */
+#konten .deskripsi,
+#konten .pendaftaran,
+#konten .syarat-ketentuan,
+#konten .kata-kunci {
+    margin-top: 32px;
+}
+
+#konten .title-deskripsi h6,
+#konten .title-pendaftaran h6,
+#konten .title-syarat-ketentuan h6,
+#konten .title-kata-kunci h6 {
+    font-family: var(--body-font);
+    font-weight: var(--font-extrabold);
+    font-size: 20px;
+    line-height: var(--line-height2);
+    /* identical to box height, or 30px */
+
+
+    /* Secondary/05 */
+
+    color: var(--secondary-color-5);
+
+}
+
+.garis-deskripsi,
+.garis-pendaftaran,
+.garis-syarat-ketentuan,
+.garis-kata-kunci {
+    width: 700px;
+    height: 0px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    /* Gray/03 */
+
+    border: 2px solid var(--gray-color-3);
+
+}
+
+#konten .text-deskripsi p,
+#konten .text-pendaftaran p,
+#konten .text-syarat-ketentuan p {
+    font-family: var(--body-font);
+    font-weight: var(--font-regular);
+    font-size: 16px;
+    line-height: var(--line-height2);
+    width: 700px;
+    /* or 24px */
+
+    text-align: justify;
+
+    /* Gray/06 */
+
+    color: var(--gray-color-6);
+}
+
+.ul-syarat-ketentuan {
+    list-style: inside;
+}
+
+.category-kata-kunci ul {
+    display: flex;
+    margin-left: -30px;
+}
+
+.category-kata-kunci li {
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color: var(--primary-color-1);
+    cursor: pointer;
+}
+
+.category-kata-kunci a {
+    font-family: var(--body-font);
+    font-weight: var(--font-semi-bold);
+    font-size: 14px;
+    line-height: var(--line-height2);
+    /* identical to box height, or 21px */
+
+    text-align: justify;
+
+    /* Primary/05 */
+
+    color: var(--primary-color-5);
+}
+
+/* RIGHT */
+.box-pendaftaran {
+    margin-top: 32px;
+    padding: 24px;
+    width: 400px;
+    height: 402px;
+
+    /* Neutral/01 */
+
+    background: var(--white-color);
+    /* Gray/03 */
+
+    border: 1px solid var(--gray-color-3);
+    /* Card Shadow */
+
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.head-box {
+    display: flex;
+    margin-left: 30px;
+}
+
+.head-box p {
+    margin-right: 60px;
+}
+
+.head-box p:nth-child(1) {
+    font-family: var(--card-font);
+    font-weight: var(--font-semi-bold);
+    font-size: 16px;
+    line-height: var(--line-height2);
+    color: var(--gray-color-9);
+}
+
+.head-box-garis {
+    width: 110px;
+    height: 0px;
+    margin-bottom: 28px;
+    border: 2px solid var(--primary-color-3);
+}
+
+.head-box p:nth-child(2) {
+    font-family: var(--card-font);
+    font-weight: var(--font-semi-bold);
+    font-size: 16px;
+    line-height: var(--line-height2);
+    color: var(--gray-color-4);
+}
+
+.head-box p:nth-child(3) {
+    font-family: var(--card-font);
+    font-weight: var(--font-semi-bold);
+    font-size: 16px;
+    line-height: var(--line-height2);
+    color: var(--gray-color-4);
+}
+
+.kuota-price h6 {
+    font-family: var(--body-font);
+    font-weight: var(--font-extrabold);
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+    color: var(--gray-color-8);
+}
+
+.kuota-price p {
+    font-family: var(--body-font);
+    font-weight: var(--font-regular);
+    font-size: 14px;
+    line-height: var(--line-height2);
+    color: var(--gray-color-6);
+}
+
+.kuota-price p span {
+    font-family: var(--body-font);
+    font-weight: var(--font-extrabold);
+    font-size: 28px;
+    line-height: var(--line-height2);
+    color: var(--secondary-color-5);
+}
+
+.kuota-price p strong {
+    font-family: var(--body-font);
+    font-weight: var(--font-extrabold);
+    font-size: 20px;
+    line-height: var(--line-height2);
+}
+
+.informasi {
+    display: flex;
+    gap: 10px;
+}
+
+.informasi p {
+    font-family: var(--body-font);
+    font-weight: var(--font-medium);
+    font-size: 12px;
+    line-height: var(--line-height2);
+    color: var(--gray-color-6);
+    margin-top: 4px;
+}
+
+.informasi i {
+    color: var(--secondary-color-5);
+}
+
+.button-box-pendaftaran {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.log-wishlist-button {
+    margin-right: 15px;
+    border: 1px solid var(--primary-color-9);
+    padding: 7px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: var(--white-color);
+    color: var(--primary-color-9);
+}
+
+.log-wishlist-button:hover {
+    background-color: var(--primary-color-7);
+    color: var(--white-color);
+    transition: 0.1s ease-in;
+}
+
+.log-daftar-button {
+    border: 1px solid var(--primary-color-9);
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: var(--primary-color-9);
+    color: var(--white-color);
+}
+
+.log-daftar-button:hover {
+    background-color: var(--primary-color-7);
+    transition: 0.1s ease-in;
+}
+
+/* .head-box ul {
+    display: flex;
+}
+
+.head-box li {
+    margin-right: 60px;
+} */
+
+/*=============== PROGRAM LAIN ===============*/
+#program-lain .header-program-lain {
+    margin-top: 86px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#program-lain .header-program-lain h6 {
+    font-family: var(--body-font);
+    font-weight: var(--font-extrabold);
+    font-size: 24px;
+    line-height: var(--line-height2);
+    color: var(--gray-color-7);
+}
+
+.log-program-lain-button {
+    border: 1px solid var(--primary-color-9);
+    padding: 8px 15px;
+    font-family: var(--card-font);
+    font-weight: var(--font-semi-bold);
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 8px;
+    background-color: var(--white-color);
+    color: var(--gray-color-8);
+}
+
+.garis-program-lain {
+    width: 1115px;
+    height: 0px;
+    margin-top: 18px;
+    margin-bottom: 40px;
+
+    /* Gray/03 */
+
+    border: 1px solid var(--gray-color-3);
+}
+
+.card-program-lain {
+    display: flex;
+    gap: 40px;
+    margin-left: -80px;
+}
+
+.card {
+    border-radius: 10px;
+    margin-bottom: 81px;
+}
+
+.card-header-program-lain {
+    font-family: var(--body-font);
+    font-weight: var(--font-extrabold);
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+
+    /* Secondary/05 */
+
+    color: var(--secondary-color-5);
+}
+
+.card-title-program-lain {
+    font-family: var(--body-font);
+    font-weight: var(--font-extrabold);
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: var(--gray-color-8);
+}
+
+.card-schedule-program-lain {
+    font-family: var(--body-font);
+    font-weight: var(--font-medium);
+    font-size: 12px;
+    line-height: var(--line-height3);
+    /* or 19px */
+
+    letter-spacing: -0.02em;
+    color: var(--gray-color-5);
+}
+
+.card-price-program-lain {
+    font-family: var(--body-font);
+    font-weight: var(--font-extrabold);
+    font-size: 18px;
+    line-height: var(--line-height3);
+    /* identical to box height, or 29px */
+
+    letter-spacing: -0.02em;
+
+    /* Primary/05 */
+
+    color: var(--primary-color-5);
+}
+
 /*=============== PERIOD ===============*/
-#header-period .title-period h3 {
+/* #header-period .title-period h3 {
     font-family: var(--body-font);
     font-weight: var(--font-semi-bold);
     font-size: 34px;
     line-height: var(--line-height1);
     color: var(--black-color);
-}
+} */
 
-#header-period .text-period1,
+/* #header-period .text-period1,
 #header-period .text-period2,
 #header-period .text-period3 {
     display: flex;
     column-gap: 10px;
-}
+} */
 
-#header-period .text-period1 p,
+/* #header-period .text-period1 p,
 #header-period .text-period1 i,
 #header-period .text-period2 p,
 #header-period .text-period2 i,
 #header-period .text-period3 p,
 #header-period .text-period3 i {
     color: var(--gray-color-5);
-}
+} */
 
-#header-period .text-period1 i,
+/* #header-period .text-period1 i,
 #header-period .text-period2 i,
 #header-period .text-period3 i {
     font-size: 20px;
-}
+} */
 
-#header-period .card-price {
+/* #header-period .card-price {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,33 +566,33 @@
     left: 844px;
     top: 753px;
 
-    /* Secondary/01 */
+    
 
     background: var(--white-color);
-    /* shadow */
+    
 
     box-shadow: -2px 4px 20px rgba(0, 0, 0, 0.15);
     border-radius: 15px;
-}
+} */
 
-.card-price-content h5 {
+/* .card-price-content h5 {
 
-    /* Title/Reguler 20 */
+    
 
     font-family: var(--body-font);
     font-weight: var(--font-regular);
     font-size: 20px;
     margin-top: 20px;
     line-height: var(--line-height2);
-    /* or 30px */
+    
     text-align: center;
 
     color: var(--black-color);
-}
+} */
 
-.card-price-content p {
+/* .card-price-content p {
 
-    /* Title/Semibold 20 */
+    
 
     font-family: var(--body-font);
     font-weight: var(--font-semi-bold);
@@ -100,12 +601,12 @@
     margin-top: 30px;
 
     text-align: center;
-    /* Primary/08 */
+    
 
     color: var(--primary-color-8);
-}
+} */
 
-.button_price a {
+/* .button_price a {
 
     font-family: var(--button-font);
     font-weight: var(--font-medium);
@@ -113,46 +614,42 @@
     line-height: 27px;
     margin-top: 20px;
     margin-left: 20px;
-    /* identical to box height */
+
     padding: 14px 59.5px 14px 59px;
 
-    /* BWA/White */
+
 
     color: var(--white-color);
-}
+} */
 
 /*=============== DETAIL PROGRAM ===============*/
-.title-detail-program h5 {
+/* .title-detail-program h5 {
     font-family: var(--body-font);
     font-weight: var(--font-semi-bold);
     font-size: 20px;
     line-height: var(--line-height2);
-    /* identical to box height, or 30px */
 
-
-    /* Neutral/02 */
+    
     color: var(--black-color)
-}
+} */
 
-.title-detail-program .garis {
+/* .title-detail-program .garis {
     width: 704px;
     height: 0px;
     margin-top: 20px;
 
-    /* Primary/04 */
-
     border: 2px solid var(--primary-color-4);
-}
+} */
 
-.text-detail-program p {
+/* .text-detail-program p {
     font-family: var(--body-font);
     font-weight: var(--font-regular);
     font-size: 16px;
     margin-top: 20px;
     line-height: var(--line-height2);
-    /* or 24px */
+    
 
     text-align: justify;
 
     color: var(--black-color);
-}
+} */
