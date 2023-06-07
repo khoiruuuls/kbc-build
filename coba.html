@@ -2,27 +2,48 @@
 <html>
 
 <head>
-    <title>Rating Example</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/remixicon.css">
+    <title>Filter Programs</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/remixicon/remixicon.css">
     <style>
-        .rating {
-            font-size: 25px;
+        table {
+            width: 50%;
+            border-collapse: collapse;
         }
 
-        .rating>i {
-            color: gold;
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        .deskripsi-cell {
+            max-width: 200px;
+            overflow: hidden;
+            word-wrap: break-word;
         }
     </style>
 </head>
 
 <body>
-    <div class="rating">
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-half-fill"></i>
-    </div>
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>Deskripsi</th>
+        </tr>
+        <tr>
+            <td>Produk 1</td>
+            <td class="deskripsi-cell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia diam id
+                facilisis volutpat. Fostering creativity, critical thinking, communication and collaboration for
+                sustainable business</td>
+        </tr>
+        <tr>
+            <td>Produk 2</td>
+            <td class="deskripsi-cell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia diam id
+                facilisis volutpat.</td>
+        </tr>
+    </table>
+
 </body>
 
 </html>
