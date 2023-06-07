@@ -102,7 +102,6 @@
 }
 
 /*=============== Main ===============*/
-/* CSS untuk main */
 #main-section {
     margin-top: -640px;
     margin-left: 200px;
@@ -128,6 +127,34 @@
     line-height: var(--line-height1);
     color: var(--primary-color-9);
     margin-top: 37px;
+}
+
+#route {
+    display: inline-flex;
+    column-gap: 10px;
+}
+
+#route P,
+#route i {
+    font-family: var(--body-font);
+    font-weight: var(--font-medium);
+    font-size: 16px;
+    line-height: var(--line-height2);
+    /* identical to box height, or 24px */
+
+
+    /* Primary/09 */
+
+    color: var(--primary-color-9);
+}
+
+#route span {
+    font-family: var(--body-font);
+    font-weight: var(--font-medium);
+    font-size: 16px;
+    line-height: var(--line-height2);
+    color: var(--secondary-color-5);
+
 }
 
 .search-form {
@@ -182,6 +209,7 @@ button[type="submit"] {
 }
 
 .dropdown-content {
+    background: var(--primary-color-3);
     display: none;
     position: absolute;
     min-width: 160px;
@@ -311,6 +339,16 @@ td button {
     gap: 10px;
 }
 
+td #button-table button:nth-child(1) {
+    color: var(--white-color);
+    background: #EAB308;
+}
+
+td #button-table button:nth-child(2) {
+    color: var(--white-color);
+    background: #EF4444;
+}
+
 td button:nth-child(1) {
     color: var(--white-color);
     background: #3B82F6;
@@ -339,6 +377,22 @@ td .menunggu {
     color: #EAB308;
     background: var(--white-color);
     border: 1px solid #EAB308;
+    border-radius: 5px;
+}
+
+td .draf {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    padding: 5px 23px;
+    gap: 10px;
+
+    /* Neutral/01 */
+
+    color: #3B82F6;
+    background: var(--white-color);
+    border: 1px solid #3B82F6;
     border-radius: 5px;
 }
 
